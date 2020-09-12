@@ -24,7 +24,7 @@ class PDF(FPDF):
         
 pdf = PDF()
 pdf.add_page()
-pdf.pdf_it("CIS 120 Transcript.txt")
+pdf.pdf_it("Transcript.vtt")
 
 
 pdf.output("Summarized Notes.pdf")    

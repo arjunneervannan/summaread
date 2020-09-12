@@ -1,0 +1,3847 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:01.790 --> 00:00:03.470
+RICHARD YOUNG: Hello, everyone.
+
+00:00:03.470 --> 00:00:07.970
+We're about nine months
+into the COVID pandemic.
+
+00:00:07.970 --> 00:00:10.370
+In that time, a remarkable
+amount of information
+
+00:00:10.370 --> 00:00:13.010
+has been learned about
+the novel coronavirus
+
+00:00:13.010 --> 00:00:16.400
+and about host cell biology,
+immunology, epidemiology,
+
+00:00:16.400 --> 00:00:18.340
+and clinical disease.
+
+00:00:18.340 --> 00:00:20.120
+There are complexities
+in these subjects
+
+00:00:20.120 --> 00:00:23.060
+that confound even the experts.
+
+00:00:23.060 --> 00:00:25.550
+The purpose of this
+course is to learn
+
+00:00:25.550 --> 00:00:27.700
+what we know about
+these subjects
+
+00:00:27.700 --> 00:00:30.330
+from the world's top scientists.
+
+00:00:30.330 --> 00:00:33.420
+I'm Richard Young, and together
+with for Facundo Batista
+
+00:00:33.420 --> 00:00:35.740
+and our teaching
+assistant Lena Afeyan,
+
+00:00:35.740 --> 00:00:40.620
+we are core faculty for
+MIT's course 700 on COVID-19,
+
+00:00:40.620 --> 00:00:43.830
+SARS-CoV-2, and the pandemic.
+
+00:00:43.830 --> 00:00:45.960
+I'm going to make a few
+remarks to the students who
+
+00:00:45.960 --> 00:00:48.690
+are registered for this
+course and then introduce
+
+00:00:48.690 --> 00:00:50.460
+our first speaker.
+
+00:00:50.460 --> 00:00:53.040
+Students, if you miss any of
+the following instructions,
+
+00:00:53.040 --> 00:00:56.250
+you can find them in the
+course's Canvas site.
+
+00:00:56.250 --> 00:00:58.200
+First, live
+attendance of lectures
+
+00:00:58.200 --> 00:01:00.690
+is encouraged but not required.
+
+00:01:00.690 --> 00:01:02.610
+Recordings of the
+lectures will be posted
+
+00:01:02.610 --> 00:01:05.370
+with a link on the Canvas site.
+
+00:01:05.370 --> 00:01:08.660
+Your TA, Lena, will post
+an after-lecture prompt
+
+00:01:08.660 --> 00:01:11.370
+as a survey on Canvas,
+a response to which
+
+00:01:11.370 --> 00:01:13.650
+will be required before the
+start of the next week's
+
+00:01:13.650 --> 00:01:14.730
+lecture.
+
+00:01:14.730 --> 00:01:17.540
+Answers will be graded
+for participation,
+
+00:01:17.540 --> 00:01:20.370
+and students need to
+participate in at least 90%
+
+00:01:20.370 --> 00:01:23.580
+of these prompts
+to pass the class.
+
+00:01:23.580 --> 00:01:26.790
+Lena will hold a session
+Mondays from 1:00 to 2:00 PM,
+
+00:01:26.790 --> 00:01:30.150
+except for holidays, reviewing
+relevant basic material
+
+00:01:30.150 --> 00:01:33.840
+to help you better understand
+the next day's lecture.
+
+00:01:33.840 --> 00:01:36.330
+Recommended reading and
+other reading materials
+
+00:01:36.330 --> 00:01:39.720
+are posted on the Canvas
+site and will be suggested
+
+00:01:39.720 --> 00:01:41.490
+alongside the prompts.
+
+00:01:41.490 --> 00:01:43.650
+Students are encouraged,
+but not required,
+
+00:01:43.650 --> 00:01:46.300
+to engage with these materials.
+
+00:01:46.300 --> 00:01:48.030
+Finally, during each
+session, students
+
+00:01:48.030 --> 00:01:52.530
+can submit questions via the
+Q&amp;A function in Zoom Webinar.
+
+00:01:52.530 --> 00:01:54.240
+Selected questions
+will be discussed
+
+00:01:54.240 --> 00:01:55.950
+at the end of the
+lecture, and students
+
+00:01:55.950 --> 00:01:58.890
+are welcome to ask any
+unanswered questions
+
+00:01:58.890 --> 00:02:01.800
+during office hours.
+
+00:02:01.800 --> 00:02:06.440
+Our first speaker for this
+course is Dr. Bruce Walker.
+
+00:02:06.440 --> 00:02:09.880
+Dr. Walker is a physician
+scientist and immunologist,
+
+00:02:09.880 --> 00:02:13.490
+the founding director of the
+Ragon Institute of MGH, MIT,
+
+00:02:13.490 --> 00:02:17.080
+and Harvard, a Howard Hughes
+Medical Institute professor,
+
+00:02:17.080 --> 00:02:20.270
+a professor of medicine
+at Harvard Medical School,
+
+00:02:20.270 --> 00:02:24.020
+and a professor of the
+practice of medicine at MIT.
+
+00:02:24.020 --> 00:02:27.470
+He is also adjunct professor of
+medicine at the Nelson Mandela
+
+00:02:27.470 --> 00:02:31.010
+School of Medicine at the
+University of KwaZulu-Natal
+
+00:02:31.010 --> 00:02:33.170
+in Durban, South
+Africa, where he
+
+00:02:33.170 --> 00:02:36.020
+has catalyzed the creation
+of two important research
+
+00:02:36.020 --> 00:02:37.370
+institutes.
+
+00:02:37.370 --> 00:02:40.760
+Dr. Walker is one of
+my scientific heroes,
+
+00:02:40.760 --> 00:02:44.000
+a person who has played a major
+role in addressing the AIDS
+
+00:02:44.000 --> 00:02:48.950
+pandemic, and who now is helping
+us address the COVID pandemic.
+
+00:02:48.950 --> 00:02:50.900
+Just last week, he
+and his collaborators
+
+00:02:50.900 --> 00:02:53.330
+published an important
+story in Nature,
+
+00:02:53.330 --> 00:02:55.400
+showing that T cells
+in some individuals
+
+00:02:55.400 --> 00:02:58.430
+can apparently
+cure HIV infection.
+
+00:02:58.430 --> 00:03:01.460
+Together with Arlene Sharpe,
+he is the co-director
+
+00:03:01.460 --> 00:03:04.670
+of the recently established
+Massachusetts Consortium
+
+00:03:04.670 --> 00:03:07.430
+on Pathogen Readiness,
+a collaboration
+
+00:03:07.430 --> 00:03:11.720
+among more than 500 local
+scientists focused on COVID-19
+
+00:03:11.720 --> 00:03:17.570
+research from Harvard,
+MIT, BU, Tufts, UMass,
+
+00:03:17.570 --> 00:03:20.780
+and the academic teaching
+hospitals in Boston.
+
+00:03:20.780 --> 00:03:23.870
+Bruce, thank you so much
+for giving the first lecture
+
+00:03:23.870 --> 00:03:25.720
+in our course.
+
+00:03:25.720 --> 00:03:27.770
+BRUCE WALKER: Well,
+Rick, thanks very much.
+
+00:03:27.770 --> 00:03:31.240
+I'm delighted to do this.
+
+00:03:31.240 --> 00:03:34.700
+So as Rick indicated, I'm
+a physician scientist.
+
+00:03:34.700 --> 00:03:39.340
+I graduated from medical school
+in 1980, came to Mass General,
+
+00:03:39.340 --> 00:03:42.310
+intending to become
+a family physician,
+
+00:03:42.310 --> 00:03:45.010
+but then something
+very odd happened,
+
+00:03:45.010 --> 00:03:47.470
+which was the emergence
+of a new disease.
+
+00:03:47.470 --> 00:03:49.840
+None of us knew what it was.
+
+00:03:49.840 --> 00:03:52.570
+People that had it were
+dying left and right.
+
+00:03:52.570 --> 00:03:55.750
+We had no treatments,
+and it became clear to me
+
+00:03:55.750 --> 00:04:00.250
+very quickly that if we
+didn't, as physicians
+
+00:04:00.250 --> 00:04:02.980
+on the front lines, learn
+from our patients, then
+
+00:04:02.980 --> 00:04:04.750
+we would watch a
+lot of people die.
+
+00:04:04.750 --> 00:04:09.560
+So I then took the route of
+both taking care of patients
+
+00:04:09.560 --> 00:04:12.520
+and doing scientific
+research, and I've
+
+00:04:12.520 --> 00:04:16.180
+continued to work on
+HIV my entire career.
+
+00:04:16.180 --> 00:04:21.200
+And in January of this year,
+to put this in the perspective
+
+00:04:21.200 --> 00:04:23.320
+I have on it, I was
+teaching a course
+
+00:04:23.320 --> 00:04:25.300
+to MIT and Harvard
+undergraduates
+
+00:04:25.300 --> 00:04:28.510
+in KwaZulu-Natal,
+South Africa, called
+
+00:04:28.510 --> 00:04:29.840
+"Evolution of an Epidemic."
+
+00:04:29.840 --> 00:04:32.350
+And this is a
+course that uses HIV
+
+00:04:32.350 --> 00:04:35.830
+as a model to try and understand
+how an epidemic emerges,
+
+00:04:35.830 --> 00:04:39.010
+how clues from patients
+guide scientific discovery,
+
+00:04:39.010 --> 00:04:41.350
+and how policy and
+advocacy influence
+
+00:04:41.350 --> 00:04:43.420
+the course of an epidemic.
+
+00:04:43.420 --> 00:04:45.868
+Now, as chance
+would have it, one
+
+00:04:45.868 --> 00:04:47.410
+of the things that
+we did was we were
+
+00:04:47.410 --> 00:04:49.310
+visiting traditional healers.
+
+00:04:49.310 --> 00:04:52.090
+And as chance would have it,
+one of the people in the course
+
+00:04:52.090 --> 00:04:55.720
+was an MIT student who had
+just returned from Wuhan,
+
+00:04:55.720 --> 00:04:59.530
+and another was the Director of
+Emerging Pathogens for Gilead,
+
+00:04:59.530 --> 00:05:02.410
+a former trainee of mine
+who I'd invited along
+
+00:05:02.410 --> 00:05:04.130
+as one of the speakers.
+
+00:05:04.130 --> 00:05:06.970
+The student from Wuhan
+started getting text messages
+
+00:05:06.970 --> 00:05:09.100
+multiple times a
+day from her family,
+
+00:05:09.100 --> 00:05:12.220
+talking about what a desperate
+situation it was there
+
+00:05:12.220 --> 00:05:17.260
+related to this new
+pneumonia that was emerging.
+
+00:05:17.260 --> 00:05:21.150
+And Diana Brainard,
+the person from Gilead,
+
+00:05:21.150 --> 00:05:25.630
+was getting phone calls every
+day from physicians in China,
+
+00:05:25.630 --> 00:05:28.660
+asking her to release a
+drug that they had developed
+
+00:05:28.660 --> 00:05:32.500
+for Ebola, called Remdesivir,
+so that they could try it to see
+
+00:05:32.500 --> 00:05:37.990
+if it had any effect on
+this new, deadly pathogen.
+
+00:05:37.990 --> 00:05:40.630
+It became clear to me
+from those conversations
+
+00:05:40.630 --> 00:05:44.830
+that this had the potential
+to be a big problem.
+
+00:05:44.830 --> 00:05:47.080
+As Rick said, I'm the director
+of the Ragon Institute.
+
+00:05:47.080 --> 00:05:49.060
+Our mission is to
+harness the immune system
+
+00:05:49.060 --> 00:05:51.760
+to prevent and cure human
+disease with a focus
+
+00:05:51.760 --> 00:05:54.790
+on infectious pathogens
+of global importance,
+
+00:05:54.790 --> 00:05:56.950
+and our strategy
+is really to use
+
+00:05:56.950 --> 00:06:00.280
+cross-disciplinary
+collaboration, coupled
+
+00:06:00.280 --> 00:06:02.710
+with flexible funding,
+to try and make advances.
+
+00:06:02.710 --> 00:06:05.410
+And we're fortunate to
+be embedded in, I think,
+
+00:06:05.410 --> 00:06:09.080
+one of the best biomedical
+research ecosystems anywhere.
+
+00:06:09.080 --> 00:06:12.580
+So we started working on
+this, really, right away,
+
+00:06:12.580 --> 00:06:16.900
+and what I would like to do
+now, as the first speaker,
+
+00:06:16.900 --> 00:06:20.680
+is to give you a bit of an
+overview of what we know.
+
+00:06:20.680 --> 00:06:22.720
+How did this pandemic start?
+
+00:06:22.720 --> 00:06:26.830
+How does it cause disease,
+the virus, SARS-CoV-2?
+
+00:06:26.830 --> 00:06:28.810
+What are the prospects
+for treatment?
+
+00:06:28.810 --> 00:06:31.330
+And what are the
+prospects for vaccines?
+
+00:06:31.330 --> 00:06:34.060
+So getting right into
+this, let's put it
+
+00:06:34.060 --> 00:06:37.790
+in the perspective of what
+we experienced with HIV.
+
+00:06:37.790 --> 00:06:42.730
+So HIV was recognized in
+1981, but the infection
+
+00:06:42.730 --> 00:06:48.430
+started being transmitted in the
+US at least as early as in 1978
+
+00:06:48.430 --> 00:06:50.240
+or even earlier.
+
+00:06:50.240 --> 00:06:53.500
+So in 1981, it was clear
+that something was going on.
+
+00:06:53.500 --> 00:06:55.960
+It was '83, two years
+later, before we
+
+00:06:55.960 --> 00:06:58.450
+knew what was causing
+this new disease,
+
+00:06:58.450 --> 00:07:01.600
+and it took two more years to
+develop a diagnostic test so we
+
+00:07:01.600 --> 00:07:04.570
+could know actually who had it.
+
+00:07:04.570 --> 00:07:09.440
+Now, let's compare what happened
+with this particular pandemic.
+
+00:07:09.440 --> 00:07:12.100
+So what happened
+was that patients
+
+00:07:12.100 --> 00:07:14.530
+started coming to
+hospitals in Wuhan
+
+00:07:14.530 --> 00:07:17.170
+with a pneumonia
+of unknown cause.
+
+00:07:17.170 --> 00:07:20.560
+And looking back at this,
+it was the end of December
+
+00:07:20.560 --> 00:07:22.870
+when this cluster
+of cases happened,
+
+00:07:22.870 --> 00:07:25.180
+and there was a really
+important observation
+
+00:07:25.180 --> 00:07:26.530
+made by health care workers.
+
+00:07:26.530 --> 00:07:30.940
+And that was that these
+people had a common experience
+
+00:07:30.940 --> 00:07:36.820
+of having been at
+a Hunan market,
+
+00:07:36.820 --> 00:07:42.040
+suggesting that this might
+be a transmissible agent.
+
+00:07:42.040 --> 00:07:46.360
+That led to the use
+of shotgun sequencing
+
+00:07:46.360 --> 00:07:49.720
+to identify the etiologic
+agent and to the development
+
+00:07:49.720 --> 00:07:53.700
+of a diagnostic
+test based on PCR.
+
+00:07:53.700 --> 00:07:58.440
+That all, which took
+four years for HIV,
+
+00:07:58.440 --> 00:08:03.450
+occurred in less than a month,
+so an extraordinary tribute
+
+00:08:03.450 --> 00:08:07.860
+to the advances that have been
+made in science over the years.
+
+00:08:07.860 --> 00:08:10.110
+The sequencing
+allowed scientists
+
+00:08:10.110 --> 00:08:13.560
+to recognize this as
+a beta coronavirus,
+
+00:08:13.560 --> 00:08:20.430
+which is an RNA virus that
+has a single strand of RNA
+
+00:08:20.430 --> 00:08:26.430
+and then an outer envelope with
+a predominant spike protein
+
+00:08:26.430 --> 00:08:31.600
+that's a major target
+for the immune response.
+
+00:08:31.600 --> 00:08:35.789
+The origin of the virus
+is almost certainly
+
+00:08:35.789 --> 00:08:38.740
+from bats, originally.
+
+00:08:38.740 --> 00:08:42.480
+It also is very closely
+related to a coronavirus
+
+00:08:42.480 --> 00:08:45.030
+that's been identified
+from pangolins,
+
+00:08:45.030 --> 00:08:49.110
+but, likely, the transmission
+went from bat to pangolin, back
+
+00:08:49.110 --> 00:08:51.720
+to bat, and then to humans,
+although the epidemiology
+
+00:08:51.720 --> 00:08:56.010
+is still not certain
+on that score.
+
+00:08:56.010 --> 00:08:58.830
+This is not the first
+pathogenic human coronavirus
+
+00:08:58.830 --> 00:08:59.610
+that we've seen.
+
+00:08:59.610 --> 00:09:03.600
+SARS, in 2003, caused
+a total of 8,000 cases
+
+00:09:03.600 --> 00:09:07.170
+with a fatality rate of
+11%, but, thankfully,
+
+00:09:07.170 --> 00:09:10.620
+the transmissibility of
+SARS was not that high.
+
+00:09:10.620 --> 00:09:13.680
+MERS came along in 2011
+and still persists.
+
+00:09:13.680 --> 00:09:18.870
+There've been 2,500 some
+cases with a much higher case
+
+00:09:18.870 --> 00:09:21.900
+fatality rate of 34%,
+but, again, thankfully,
+
+00:09:21.900 --> 00:09:23.790
+low transmissibility.
+
+00:09:23.790 --> 00:09:26.130
+But look at the
+contrast to SARS-CoV-2.
+
+00:09:26.130 --> 00:09:31.150
+We now have over 25 million
+cases as of this morning.
+
+00:09:31.150 --> 00:09:34.720
+The estimated fatality rate is
+somewhere between 1/2% and 1%.
+
+00:09:34.720 --> 00:09:37.650
+That varies widely
+depending upon the age
+
+00:09:37.650 --> 00:09:43.690
+group and the geography,
+and it's very transmissible.
+
+00:09:43.690 --> 00:09:45.430
+I think the important
+thing for everybody
+
+00:09:45.430 --> 00:09:50.620
+to recognize from this
+slide is that we can expect
+
+00:09:50.620 --> 00:09:54.220
+to have additional
+coronaviruses in our future,
+
+00:09:54.220 --> 00:09:56.470
+and the big fear,
+and I think what's
+
+00:09:56.470 --> 00:09:58.630
+an existential
+threat to humanity,
+
+00:09:58.630 --> 00:10:00.550
+is the possibility
+of a coronavirus
+
+00:10:00.550 --> 00:10:04.690
+with the transmissibility
+of SARS-CoV-2 and the case
+
+00:10:04.690 --> 00:10:07.330
+fatality rate of MERS.
+
+00:10:07.330 --> 00:10:12.400
+So it really does behoove us
+to monitor for these emerging
+
+00:10:12.400 --> 00:10:13.600
+pathogens.
+
+00:10:13.600 --> 00:10:18.250
+Why is it that SARS-CoV-2
+has spread so effectively?
+
+00:10:18.250 --> 00:10:25.690
+Well, it's in large part because
+the transmissibility begins
+
+00:10:25.690 --> 00:10:27.880
+before the onset of symptoms.
+
+00:10:27.880 --> 00:10:30.790
+And, in fact, this is very
+different than MERS and SARS,
+
+00:10:30.790 --> 00:10:35.020
+which only are at
+peak transmissibility
+
+00:10:35.020 --> 00:10:38.000
+a number of days after
+onset of symptoms.
+
+00:10:38.000 --> 00:10:45.310
+This makes it very hard to do
+case tracking and isolation
+
+00:10:45.310 --> 00:10:48.340
+of infectious individuals.
+
+00:10:48.340 --> 00:10:52.000
+Not surprisingly, we have
+a huge pandemic, 25 million
+
+00:10:52.000 --> 00:10:57.550
+global cases, 850,000 deaths,
+and over 6 million infections
+
+00:10:57.550 --> 00:11:03.740
+in the US, which is the most
+affected country in the world.
+
+00:11:03.740 --> 00:11:08.230
+So how is it that
+SARS-CoV-2 causes disease?
+
+00:11:08.230 --> 00:11:10.870
+I'd like, because of
+the diverse audience,
+
+00:11:10.870 --> 00:11:14.140
+to start out with just a basic
+concept of understanding what's
+
+00:11:14.140 --> 00:11:16.990
+the difference between
+a virus and a bacterium.
+
+00:11:16.990 --> 00:11:22.000
+Looking here at E. coli
+compared in size to SARS-CoV-2,
+
+00:11:22.000 --> 00:11:25.540
+I've exaggerated the
+size of the virus
+
+00:11:25.540 --> 00:11:27.850
+here compared to the
+bacterium, but there
+
+00:11:27.850 --> 00:11:32.290
+are significant differences
+between these two.
+
+00:11:32.290 --> 00:11:35.920
+E. coli has over 4,000 genes.
+
+00:11:35.920 --> 00:11:38.440
+It, like other bacteria,
+is metabolically active,
+
+00:11:38.440 --> 00:11:42.130
+and it's capable of
+independent reproduction.
+
+00:11:42.130 --> 00:11:44.290
+SARS-CoV-2, on the
+other hand, has
+
+00:11:44.290 --> 00:11:47.440
+a total of 10 genes and
+14 open reading frames.
+
+00:11:47.440 --> 00:11:51.520
+It's metabolically inert, and it
+cannot reproduce independently.
+
+00:11:51.520 --> 00:11:53.860
+Instead, it depends
+on the ability
+
+00:11:53.860 --> 00:12:01.120
+to infect the human host and
+to commandeer the human host
+
+00:12:01.120 --> 00:12:07.200
+to actually make the genes that
+are normally making proteins
+
+00:12:07.200 --> 00:12:10.630
+for the cell to use
+for its own purposes,
+
+00:12:10.630 --> 00:12:13.480
+to hijack that
+and force the cell
+
+00:12:13.480 --> 00:12:17.260
+to make viral proteins so
+that the virus can replicate
+
+00:12:17.260 --> 00:12:21.170
+and make new copies of itself.
+
+00:12:21.170 --> 00:12:27.740
+When the initial infections were
+identified to be in the lungs,
+
+00:12:27.740 --> 00:12:30.380
+that immediately
+focused clinicians
+
+00:12:30.380 --> 00:12:32.180
+on obtaining
+specimens and trying
+
+00:12:32.180 --> 00:12:34.190
+to find the etiologic
+agent, which
+
+00:12:34.190 --> 00:12:38.900
+is what happened through
+sequencing of lung epithelial
+
+00:12:38.900 --> 00:12:42.380
+cells, and that
+also led to a search
+
+00:12:42.380 --> 00:12:46.340
+for understanding how the virus
+was actually gaining entry
+
+00:12:46.340 --> 00:12:47.510
+into those cells.
+
+00:12:47.510 --> 00:12:49.970
+And that led to the
+identification of ACE-2
+
+00:12:49.970 --> 00:12:51.058
+as the receptor.
+
+00:12:51.058 --> 00:12:52.850
+There was a head start
+on this because this
+
+00:12:52.850 --> 00:12:55.040
+is the same receptor
+that SARS uses,
+
+00:12:55.040 --> 00:13:00.080
+the original SARS coronavirus.
+
+00:13:00.080 --> 00:13:02.450
+That is, however, not the--
+
+00:13:02.450 --> 00:13:05.280
+those are not the only
+cells that become infected.
+
+00:13:05.280 --> 00:13:07.820
+Goblet cells and ciliated
+cells in the nose
+
+00:13:07.820 --> 00:13:14.330
+are quite infectible, and
+that actually, probably,
+
+00:13:14.330 --> 00:13:17.000
+facilitates transmission.
+
+00:13:17.000 --> 00:13:20.030
+Lung pneumocytes are infectible.
+
+00:13:20.030 --> 00:13:21.530
+That's how we get pneumonia.
+
+00:13:21.530 --> 00:13:25.220
+The gut is also infectible,
+resulting in diarrhea
+
+00:13:25.220 --> 00:13:27.560
+in some individuals.
+
+00:13:27.560 --> 00:13:30.530
+The virus can also
+infect endothelial cells
+
+00:13:30.530 --> 00:13:32.980
+in the circulation,
+and this leads to,
+
+00:13:32.980 --> 00:13:35.930
+is thought to lead to, a
+coagulopathy and clotting
+
+00:13:35.930 --> 00:13:40.310
+that results in a great
+amount of morbidity.
+
+00:13:40.310 --> 00:13:43.460
+Cardiac myocytes can
+also express the receptor
+
+00:13:43.460 --> 00:13:46.880
+for this coronavirus.
+
+00:13:46.880 --> 00:13:52.010
+And myocarditis has been another
+disease that's been noted,
+
+00:13:52.010 --> 00:13:57.470
+and it's even appears possible
+that the central nervous system
+
+00:13:57.470 --> 00:14:01.250
+cells can also be infected,
+such as olfactory neurons.
+
+00:14:04.160 --> 00:14:07.880
+This infection doesn't happen
+without the body taking notice,
+
+00:14:07.880 --> 00:14:10.640
+and one of the ways
+the body fights back
+
+00:14:10.640 --> 00:14:14.930
+is that these B cells, one
+arm of the immune response,
+
+00:14:14.930 --> 00:14:18.020
+start to making antibodies,
+which are proteins that
+
+00:14:18.020 --> 00:14:21.500
+directly bind to the virus.
+
+00:14:21.500 --> 00:14:25.170
+They're generated in
+response to the virus.
+
+00:14:25.170 --> 00:14:28.550
+They learn in lymph nodes how
+to recognize it effectively,
+
+00:14:28.550 --> 00:14:32.000
+and then they target
+it and destroy it.
+
+00:14:32.000 --> 00:14:34.760
+If, however, cells get
+infected, then another arm
+
+00:14:34.760 --> 00:14:39.530
+of the immune system kicks
+in, so-called killer cells,
+
+00:14:39.530 --> 00:14:41.810
+or cytotoxic T cells.
+
+00:14:41.810 --> 00:14:46.100
+These recognize infected cells
+because once a cell's infected,
+
+00:14:46.100 --> 00:14:49.400
+it alerts the body to the fact
+that something bad is going
+
+00:14:49.400 --> 00:14:53.270
+on inside that cell by
+presenting viral peptides
+
+00:14:53.270 --> 00:14:55.910
+at the cell surface
+in conjunction
+
+00:14:55.910 --> 00:14:58.760
+with an HLA class I
+molecule, a surface
+
+00:14:58.760 --> 00:15:01.330
+receptor on these cells.
+
+00:15:01.330 --> 00:15:06.730
+Foreign peptide in the HLA
+molecule in the binding groove
+
+00:15:06.730 --> 00:15:08.590
+alerts these killer
+cells to the fact
+
+00:15:08.590 --> 00:15:10.600
+that something bad is going on.
+
+00:15:10.600 --> 00:15:15.400
+They recognize that and deliver
+a lethal hit to the cell,
+
+00:15:15.400 --> 00:15:21.910
+killing it, and thereby
+eliminating infectious virus.
+
+00:15:21.910 --> 00:15:25.300
+So OK, so we have these
+immune responses that
+
+00:15:25.300 --> 00:15:28.990
+are being generated to
+this virus the same way
+
+00:15:28.990 --> 00:15:30.730
+that they are to other viruses.
+
+00:15:30.730 --> 00:15:32.920
+Why is it that they're
+not doing a better job?
+
+00:15:32.920 --> 00:15:36.370
+Well, it turns out that B
+cell antibody production
+
+00:15:36.370 --> 00:15:38.710
+is impaired, and
+this is work that's
+
+00:15:38.710 --> 00:15:43.030
+from Shiv Pallai, who will be
+speaking later in this course,
+
+00:15:43.030 --> 00:15:46.420
+where he noted through
+autopsy studies
+
+00:15:46.420 --> 00:15:49.690
+that, in fact, unlike a
+normal immune response
+
+00:15:49.690 --> 00:15:52.210
+that gets generated
+within a lymph node,
+
+00:15:52.210 --> 00:15:56.860
+where these germinal centers
+result in antibody maturation
+
+00:15:56.860 --> 00:16:00.460
+and affinity maturation that
+allows recognition, what
+
+00:16:00.460 --> 00:16:04.780
+happens in COVID-19 disease
+is that these germinal centers
+
+00:16:04.780 --> 00:16:06.070
+don't form.
+
+00:16:06.070 --> 00:16:11.110
+So there's an abnormal
+immune response underway
+
+00:16:11.110 --> 00:16:15.340
+that we're all attempting
+to understand better.
+
+00:16:15.340 --> 00:16:17.620
+Let me introduce now a
+second concept, and that
+
+00:16:17.620 --> 00:16:19.750
+is to make sure
+that we understand
+
+00:16:19.750 --> 00:16:22.690
+the difference between
+infection and inflammation.
+
+00:16:22.690 --> 00:16:26.550
+Infection is invasion of the
+body by disease-causing agents,
+
+00:16:26.550 --> 00:16:28.060
+their multiplication
+in the body,
+
+00:16:28.060 --> 00:16:32.260
+and then the reaction of host
+tissues to that pathogen.
+
+00:16:32.260 --> 00:16:34.030
+Inflammation, on
+the other hand, is
+
+00:16:34.030 --> 00:16:37.720
+the body's process of fighting
+against things that harm it,
+
+00:16:37.720 --> 00:16:40.900
+such as infections, by releasing
+chemicals, that are also
+
+00:16:40.900 --> 00:16:44.830
+called cytokines, that call
+the immune system into action
+
+00:16:44.830 --> 00:16:46.850
+and recruit other cells.
+
+00:16:46.850 --> 00:16:51.460
+So a second reason
+why the immune system
+
+00:16:51.460 --> 00:16:53.890
+doesn't do a better
+job is because it
+
+00:16:53.890 --> 00:16:57.880
+appears that these killer cells
+are ineffective at eliminating
+
+00:16:57.880 --> 00:17:01.390
+infected cells, but they do
+produce a lot of cytokines,
+
+00:17:01.390 --> 00:17:04.310
+these chemical messengers.
+
+00:17:04.310 --> 00:17:08.319
+In the same way infected cells
+release chemical messengers,
+
+00:17:08.319 --> 00:17:11.680
+these then act on other
+cells and activate them
+
+00:17:11.680 --> 00:17:15.280
+to elicit even further
+chemical messengers,
+
+00:17:15.280 --> 00:17:19.300
+and all of this
+immune activation
+
+00:17:19.300 --> 00:17:24.210
+leads to bystander problems.
+
+00:17:24.210 --> 00:17:27.339
+And we see this
+hyperimmune state,
+
+00:17:27.339 --> 00:17:29.980
+which has been termed
+an inflammatory storm,
+
+00:17:29.980 --> 00:17:31.660
+or a cytokine storm.
+
+00:17:31.660 --> 00:17:34.120
+And here, looking
+at a normal lung
+
+00:17:34.120 --> 00:17:38.720
+on the left, you can see
+that the alveolar air sacs,
+
+00:17:38.720 --> 00:17:43.270
+which is where gas exchange
+happens between taking
+
+00:17:43.270 --> 00:17:46.630
+a breath in and getting
+oxygen into the bloodstream,
+
+00:17:46.630 --> 00:17:49.690
+you can see that those are
+very fine membranes that
+
+00:17:49.690 --> 00:17:51.610
+allow for ready passage.
+
+00:17:51.610 --> 00:17:55.290
+On the right, you see what
+happens in COVID-19 disease.
+
+00:17:55.290 --> 00:17:58.240
+There's this
+massive infiltration
+
+00:17:58.240 --> 00:18:03.310
+of inflammatory cells, a marked
+thickening of the septae,
+
+00:18:03.310 --> 00:18:06.880
+and an impairment
+of gas exchange,
+
+00:18:06.880 --> 00:18:16.300
+leading, then, to the clinical
+problems with lung disease.
+
+00:18:16.300 --> 00:18:19.210
+Now, essentially,
+what I've just told
+
+00:18:19.210 --> 00:18:22.670
+you is that we have an
+immune response that's
+
+00:18:22.670 --> 00:18:26.920
+designed to basically generate
+an antiviral immune response,
+
+00:18:26.920 --> 00:18:28.360
+and that happens early on.
+
+00:18:28.360 --> 00:18:32.740
+But what we believe
+happens in COVID-19 disease
+
+00:18:32.740 --> 00:18:37.660
+is that that is actually
+replaced by a host
+
+00:18:37.660 --> 00:18:41.200
+inflammatory response that
+actually, rather than acting
+
+00:18:41.200 --> 00:18:43.810
+as friend, actually
+acts more as foe
+
+00:18:43.810 --> 00:18:46.630
+in the later stages
+of disease as there's
+
+00:18:46.630 --> 00:18:49.690
+increasing disease severity.
+
+00:18:49.690 --> 00:18:55.210
+We know that this disease does
+not affect everybody equally,
+
+00:18:55.210 --> 00:18:58.600
+probably not surprisingly
+because the older people get,
+
+00:18:58.600 --> 00:19:01.060
+the more likely they're
+going to have comorbidities
+
+00:19:01.060 --> 00:19:06.280
+that make them less resilient
+to diseases in general.
+
+00:19:06.280 --> 00:19:08.380
+And in fact, what
+was striking early on
+
+00:19:08.380 --> 00:19:10.930
+was a sense that children
+did not get infected,
+
+00:19:10.930 --> 00:19:13.810
+but, sadly, that is not true.
+
+00:19:13.810 --> 00:19:17.200
+And in fact, in data that
+just came out yesterday
+
+00:19:17.200 --> 00:19:20.710
+from the American
+Academy of Pediatrics,
+
+00:19:20.710 --> 00:19:24.610
+there has been recently a
+greater increase in cases,
+
+00:19:24.610 --> 00:19:29.170
+hospitalizations, and deaths of
+percentage increase in children
+
+00:19:29.170 --> 00:19:31.150
+compared to the percentage
+increase that we've
+
+00:19:31.150 --> 00:19:33.430
+been seeing in adults.
+
+00:19:33.430 --> 00:19:37.270
+On top of that, there's a
+unique inflammatory syndrome
+
+00:19:37.270 --> 00:19:40.630
+that has been recognized
+in children, which
+
+00:19:40.630 --> 00:19:43.270
+is similar to Kawasaki
+disease, which
+
+00:19:43.270 --> 00:19:47.710
+is an inflammatory disease
+of unclear etiology.
+
+00:19:47.710 --> 00:19:49.570
+But what you can
+see on this slide
+
+00:19:49.570 --> 00:19:55.840
+is that between 2015 and 2019,
+before the advent of COVID-19
+
+00:19:55.840 --> 00:19:58.540
+disease, there
+were sporadic cases
+
+00:19:58.540 --> 00:20:04.130
+of non-severe Kawasaki disease
+and occasional severe cases.
+
+00:20:04.130 --> 00:20:05.800
+But look at what
+happened in 2020.
+
+00:20:05.800 --> 00:20:10.030
+Suddenly, this enormous
+spike in infections.
+
+00:20:10.030 --> 00:20:13.100
+We think that it's due
+to a post-inflammatory,
+
+00:20:13.100 --> 00:20:16.750
+a post-infectious
+inflammatory response.
+
+00:20:16.750 --> 00:20:19.990
+What exactly causes it is still
+being investigated, but is
+
+00:20:19.990 --> 00:20:23.470
+of critical significance
+related to vaccine
+
+00:20:23.470 --> 00:20:27.600
+development for children.
+
+00:20:27.600 --> 00:20:30.350
+I'd like to say a few
+words about diagnostics
+
+00:20:30.350 --> 00:20:36.710
+now as a key component to
+trying to curtail the pandemic.
+
+00:20:36.710 --> 00:20:38.660
+What you're probably
+most familiar with
+
+00:20:38.660 --> 00:20:41.000
+are RNA tests, which
+is PCR, and this
+
+00:20:41.000 --> 00:20:43.670
+is what's being done
+through the Broad Institute
+
+00:20:43.670 --> 00:20:48.140
+for all of the MIT and
+Harvard undergraduates.
+
+00:20:48.140 --> 00:20:53.180
+These RNA tests use polymerase
+chain reaction to amplify
+
+00:20:53.180 --> 00:20:56.510
+fragments of a viral RNA.
+
+00:20:56.510 --> 00:21:00.050
+So they don't tell you
+whether what's being amplified
+
+00:21:00.050 --> 00:21:01.790
+is actually infectious or not.
+
+00:21:01.790 --> 00:21:07.340
+They just tell you that there
+is viral genetic material there.
+
+00:21:07.340 --> 00:21:11.510
+And if you look, as was done
+at Mass General Hospital,
+
+00:21:11.510 --> 00:21:18.680
+at RNA detection rates following
+admission to the hospital,
+
+00:21:18.680 --> 00:21:23.450
+what you see is that the percent
+of people that are admitted who
+
+00:21:23.450 --> 00:21:25.920
+start out positive
+declines over time,
+
+00:21:25.920 --> 00:21:30.350
+but some people remain RNA
+positive for four weeks
+
+00:21:30.350 --> 00:21:31.610
+or more.
+
+00:21:31.610 --> 00:21:33.560
+The question is,
+are these people
+
+00:21:33.560 --> 00:21:35.030
+infectious all that time?
+
+00:21:35.030 --> 00:21:38.030
+Because we're right now
+using the RNA detection
+
+00:21:38.030 --> 00:21:40.900
+assay as a yes-or-no assay.
+
+00:21:40.900 --> 00:21:43.400
+Well, it turns out that there's
+declining infectiousness
+
+00:21:43.400 --> 00:21:46.040
+over time to the point
+that the CDC revamped
+
+00:21:46.040 --> 00:21:51.530
+its definition of recovery
+to mean 10 days after symptom
+
+00:21:51.530 --> 00:21:56.570
+onset, and at least three days
+of the absence of symptoms.
+
+00:21:56.570 --> 00:22:00.590
+It's really critical that we
+develop an assay that we still
+
+00:22:00.590 --> 00:22:03.050
+don't have that tells us--
+
+00:22:03.050 --> 00:22:06.920
+that measures the
+infectiousness of a person.
+
+00:22:06.920 --> 00:22:10.760
+Now, another diagnostic
+test that's been developed
+
+00:22:10.760 --> 00:22:12.470
+is called-- it's
+a category called
+
+00:22:12.470 --> 00:22:14.660
+antigen tests, where
+you're not looking
+
+00:22:14.660 --> 00:22:16.130
+for viral genetic material.
+
+00:22:16.130 --> 00:22:19.010
+You're looking for
+viral proteins,
+
+00:22:19.010 --> 00:22:22.730
+such as the membrane
+proteins in blue
+
+00:22:22.730 --> 00:22:25.440
+or the spike protein
+in brown here.
+
+00:22:25.440 --> 00:22:29.510
+And the way that these
+diagnostic tests are being done
+
+00:22:29.510 --> 00:22:33.410
+is very much like the
+point-of-care diagnostic test
+
+00:22:33.410 --> 00:22:39.380
+that's used as a pregnancy
+test, where what one does is put
+
+00:22:39.380 --> 00:22:46.670
+a detection strip into urine,
+in the case of a pregnancy test,
+
+00:22:46.670 --> 00:22:48.860
+and in the case of--
+
+00:22:51.870 --> 00:22:52.610
+hang on.
+
+00:22:56.640 --> 00:23:01.280
+And in the case of COVID-19,
+what you would ideally use
+
+00:23:01.280 --> 00:23:04.920
+is saliva or a
+nasal swab, and then
+
+00:23:04.920 --> 00:23:06.990
+use a swab that would
+tell you whether or not
+
+00:23:06.990 --> 00:23:14.070
+you're infected by having one
+or two bands on this strip light
+
+00:23:14.070 --> 00:23:15.150
+up.
+
+00:23:15.150 --> 00:23:18.510
+These are now
+actually available;
+
+00:23:18.510 --> 00:23:20.790
+they're less sensitive.
+
+00:23:20.790 --> 00:23:24.370
+But, in fact, less sensitive
+may actually be better.
+
+00:23:24.370 --> 00:23:27.605
+So let's just think about
+the different assays I just
+
+00:23:27.605 --> 00:23:28.230
+told you about.
+
+00:23:28.230 --> 00:23:30.570
+The RNA-based tests are
+much more expensive,
+
+00:23:30.570 --> 00:23:34.980
+and they require, really,
+much more extensive machinery,
+
+00:23:34.980 --> 00:23:38.080
+although that also
+is being addressed.
+
+00:23:38.080 --> 00:23:40.890
+Rapid antigen tests
+are much cheaper.
+
+00:23:40.890 --> 00:23:43.520
+Sensitivity is lower,
+but scale-up ability
+
+00:23:43.520 --> 00:23:46.290
+is higher, easier to get
+to underserved areas,
+
+00:23:46.290 --> 00:23:49.455
+easier for frequent
+testing, easier ease of use.
+
+00:23:52.050 --> 00:23:54.570
+But at least right now,
+they're not quantitative.
+
+00:23:54.570 --> 00:23:56.670
+RNA tests can be
+quantitative, but we
+
+00:23:56.670 --> 00:23:59.410
+haven't used them
+that way, and I
+
+00:23:59.410 --> 00:24:02.010
+think there's a move
+afoot to do that,
+
+00:24:02.010 --> 00:24:03.840
+and there are supply
+chain issues that
+
+00:24:03.840 --> 00:24:06.270
+are predominantly
+for the RNA tests,
+
+00:24:06.270 --> 00:24:09.180
+but not so much for the
+rapid antigen tests.
+
+00:24:09.180 --> 00:24:13.200
+So another important
+diagnostic is
+
+00:24:13.200 --> 00:24:15.330
+to figure out who's had
+the infection already,
+
+00:24:15.330 --> 00:24:18.000
+and this is done by testing
+for antibodies, which
+
+00:24:18.000 --> 00:24:20.010
+are proteins in the
+blood that are generated
+
+00:24:20.010 --> 00:24:22.800
+in response to infection.
+
+00:24:22.800 --> 00:24:25.410
+When somebody gets
+infected, initially, there's
+
+00:24:25.410 --> 00:24:27.240
+a wave of virus that occurs.
+
+00:24:27.240 --> 00:24:30.960
+The immune response responds
+by generating antibodies,
+
+00:24:30.960 --> 00:24:34.080
+and, ideally, these
+antibodies then,
+
+00:24:34.080 --> 00:24:36.840
+after the infection's
+cleared, come down to a level
+
+00:24:36.840 --> 00:24:39.510
+and persist to protect
+against subsequent infection
+
+00:24:39.510 --> 00:24:41.380
+in the future.
+
+00:24:41.380 --> 00:24:46.080
+If you look at antibody
+responses in people
+
+00:24:46.080 --> 00:24:47.992
+who were hospitalized
+as same cohort,
+
+00:24:47.992 --> 00:24:49.950
+you can see that they
+come up slowly over time,
+
+00:24:49.950 --> 00:24:52.290
+and within about three
+weeks, almost everybody
+
+00:24:52.290 --> 00:24:54.540
+has antibodies.
+
+00:24:54.540 --> 00:24:58.830
+So they're-- sorry--
+
+00:24:58.830 --> 00:25:04.260
+so we have ways to now
+really track the infection,
+
+00:25:04.260 --> 00:25:06.450
+figure out who's infected.
+
+00:25:06.450 --> 00:25:08.460
+And this is-- these
+antibody tests
+
+00:25:08.460 --> 00:25:11.495
+are going to be a really
+important epidemiologic tool.
+
+00:25:11.495 --> 00:25:12.870
+Well, let's go on
+and talk about,
+
+00:25:12.870 --> 00:25:16.730
+what are the prospects
+for treatment?
+
+00:25:16.730 --> 00:25:20.490
+There, basically, are
+two approaches that
+
+00:25:20.490 --> 00:25:21.930
+in general are being pursued.
+
+00:25:21.930 --> 00:25:26.040
+One is antiviral therapies
+that directly attack the virus,
+
+00:25:26.040 --> 00:25:29.017
+and an example of
+this is Remdesivir.
+
+00:25:29.017 --> 00:25:30.600
+Remember, in the
+beginning, I told you
+
+00:25:30.600 --> 00:25:33.810
+Diana Brainard was getting
+calls in South Africa
+
+00:25:33.810 --> 00:25:37.470
+to release a drug that had
+been developed for Ebola.
+
+00:25:37.470 --> 00:25:39.900
+That drug was
+Remdesivir, and it's now
+
+00:25:39.900 --> 00:25:43.650
+been shown to have some effect.
+
+00:25:43.650 --> 00:25:46.680
+Now, the important thing to
+note from this paper that
+
+00:25:46.680 --> 00:25:48.510
+was published in The
+New England Journal
+
+00:25:48.510 --> 00:25:53.190
+is that, although Remdesivir
+does have an effect in speeding
+
+00:25:53.190 --> 00:25:56.940
+the time to recovery, there's
+no change in mortality that's
+
+00:25:56.940 --> 00:25:59.110
+statistically significant.
+
+00:25:59.110 --> 00:26:01.680
+So it's really a
+marginal benefit,
+
+00:26:01.680 --> 00:26:04.140
+and it has to be
+given intravenously.
+
+00:26:04.140 --> 00:26:06.360
+We need drugs that
+can be given orally,
+
+00:26:06.360 --> 00:26:09.090
+that can be given early
+in the onset of disease,
+
+00:26:09.090 --> 00:26:12.830
+and/or in later disease,
+and have an effect.
+
+00:26:12.830 --> 00:26:14.310
+It probably makes
+a big difference
+
+00:26:14.310 --> 00:26:16.770
+when drugs are given in
+terms of their ability
+
+00:26:16.770 --> 00:26:20.220
+to make an effect, and
+I'll come back to that.
+
+00:26:20.220 --> 00:26:24.220
+Another approach is to use
+neutralizing SARS-CoV-2
+
+00:26:24.220 --> 00:26:27.930
+antibodies, and these can come
+from convalescent plasma, which
+
+00:26:27.930 --> 00:26:30.660
+has been given an
+emergency use authorization
+
+00:26:30.660 --> 00:26:33.900
+and has been a subject of much
+controversy as to whether it
+
+00:26:33.900 --> 00:26:36.420
+really works.
+
+00:26:36.420 --> 00:26:40.170
+Another therapy on the horizon
+is monoclonal antibodies
+
+00:26:40.170 --> 00:26:43.530
+that are able to neutralize
+the virus that could be given
+
+00:26:43.530 --> 00:26:47.040
+prophylactically or
+potentially therapeutically,
+
+00:26:47.040 --> 00:26:50.340
+but those are not yet licensed.
+
+00:26:50.340 --> 00:26:54.810
+Another way to approach therapy
+is to have directed therapies
+
+00:26:54.810 --> 00:26:56.760
+to block the cytokine storm.
+
+00:26:56.760 --> 00:26:59.310
+So these are
+host-directed therapies,
+
+00:26:59.310 --> 00:27:01.830
+such as antibodies
+to interleukin 6,
+
+00:27:01.830 --> 00:27:02.880
+which is elevated.
+
+00:27:02.880 --> 00:27:06.780
+It's a pro-inflammatory
+cytokine and helps
+
+00:27:06.780 --> 00:27:10.050
+to create this cytokine storm.
+
+00:27:10.050 --> 00:27:14.400
+And another is
+dexamethasone, a steroid.
+
+00:27:14.400 --> 00:27:18.600
+Dexamethasone has been
+shown to have some effect
+
+00:27:18.600 --> 00:27:23.310
+and is now being used, but there
+are lots and lots of trials
+
+00:27:23.310 --> 00:27:26.490
+that are underway and
+still no clear front
+
+00:27:26.490 --> 00:27:32.130
+runner of a drug that truly
+meets the requirements,
+
+00:27:32.130 --> 00:27:36.180
+I think, to have an impact of
+being readily available, orally
+
+00:27:36.180 --> 00:27:39.780
+ingestible, rapidly
+acting, and active
+
+00:27:39.780 --> 00:27:42.930
+during all phases of infection.
+
+00:27:42.930 --> 00:27:47.700
+So let me move on now to
+talk a little bit about what
+
+00:27:47.700 --> 00:27:52.560
+the prospects for vaccines
+are, which is really
+
+00:27:52.560 --> 00:27:54.960
+what I think it's going
+to take for us to get out
+
+00:27:54.960 --> 00:27:57.960
+of this pandemic.
+
+00:27:57.960 --> 00:28:01.510
+Again, a basic concept
+to make sure that we're--
+
+00:28:01.510 --> 00:28:03.780
+or basic concepts to
+make sure that we're all
+
+00:28:03.780 --> 00:28:05.910
+on the same page.
+
+00:28:05.910 --> 00:28:08.980
+Immunity is protection
+from an infectious disease.
+
+00:28:08.980 --> 00:28:11.310
+If you're immune
+to a disease, you
+
+00:28:11.310 --> 00:28:14.460
+can be exposed to it
+without becoming infected,
+
+00:28:14.460 --> 00:28:18.030
+or you can have a very
+attenuated infection, such
+
+00:28:18.030 --> 00:28:21.960
+that you don't even notice
+that you've been infected.
+
+00:28:21.960 --> 00:28:25.840
+Immunity can be induced by at
+least two different mechanisms.
+
+00:28:25.840 --> 00:28:29.190
+One is infection itself,
+and that, hopefully,
+
+00:28:29.190 --> 00:28:32.070
+leads to immunity to
+any subsequent encounter
+
+00:28:32.070 --> 00:28:36.150
+by generating, for example,
+antibodies that persist.
+
+00:28:36.150 --> 00:28:38.340
+Another is by
+immunization, which
+
+00:28:38.340 --> 00:28:40.590
+is the giving of
+a vaccine product
+
+00:28:40.590 --> 00:28:43.410
+that stimulates a person's
+immune system to produce
+
+00:28:43.410 --> 00:28:46.530
+immunity to a specific
+disease, protecting
+
+00:28:46.530 --> 00:28:47.890
+that person from disease.
+
+00:28:47.890 --> 00:28:52.020
+So in other words, you're
+training the immune system
+
+00:28:52.020 --> 00:28:56.490
+to attack the virus,
+without the person ever
+
+00:28:56.490 --> 00:28:58.500
+having seen the
+virus, by giving just
+
+00:28:58.500 --> 00:29:02.940
+a portion of the
+virus in a vaccine
+
+00:29:02.940 --> 00:29:06.600
+and using that as
+your training vehicle.
+
+00:29:06.600 --> 00:29:12.420
+So right now, there are
+probably close to 200 vaccines
+
+00:29:12.420 --> 00:29:14.760
+in development.
+
+00:29:14.760 --> 00:29:17.790
+In terms of where we
+are in human trials,
+
+00:29:17.790 --> 00:29:20.910
+there is a plethora of
+vaccines that have already
+
+00:29:20.910 --> 00:29:22.880
+entered human trials.
+
+00:29:22.880 --> 00:29:25.440
+23 vaccines are
+in phase 1, which
+
+00:29:25.440 --> 00:29:28.770
+is the first phase of study,
+where you test whether vaccines
+
+00:29:28.770 --> 00:29:32.160
+are safe, and you determine
+what sort of dosage
+
+00:29:32.160 --> 00:29:33.930
+can be tolerated.
+
+00:29:33.930 --> 00:29:36.630
+Phase 2, there are
+now 14 vaccines
+
+00:29:36.630 --> 00:29:43.680
+in that stage, which is an
+expansion of the phase 1 trial
+
+00:29:43.680 --> 00:29:47.400
+to get more safety information
+and learn something
+
+00:29:47.400 --> 00:29:49.560
+about immunogenicity.
+
+00:29:49.560 --> 00:29:51.660
+Phase 3 trials, of
+which there are nine,
+
+00:29:51.660 --> 00:29:55.110
+is when large efficacy
+trials are begun.
+
+00:29:55.110 --> 00:29:59.430
+I think you've all
+heard that the goal is
+
+00:29:59.430 --> 00:30:03.450
+to determine efficacy of a
+vaccine as quickly as possible,
+
+00:30:03.450 --> 00:30:05.640
+and the way that
+that will be done
+
+00:30:05.640 --> 00:30:09.330
+is by dramatically increasing
+the number of individuals
+
+00:30:09.330 --> 00:30:11.470
+that receive the vaccine.
+
+00:30:11.470 --> 00:30:14.220
+So the trials that are planned
+are somewhere between 30,000
+
+00:30:14.220 --> 00:30:18.300
+and 50,000 patients
+because you have
+
+00:30:18.300 --> 00:30:20.550
+to have enough
+infections occurring
+
+00:30:20.550 --> 00:30:26.400
+to show that the vaccine
+works better than the placebo.
+
+00:30:26.400 --> 00:30:27.930
+Finally, there
+are three vaccines
+
+00:30:27.930 --> 00:30:30.120
+that have been approved
+for earlier limited use,
+
+00:30:30.120 --> 00:30:33.570
+not by the FDA, but
+by other countries,
+
+00:30:33.570 --> 00:30:36.690
+China and Russia in particular,
+but there are no vaccines
+
+00:30:36.690 --> 00:30:38.880
+yet approved for full use.
+
+00:30:38.880 --> 00:30:42.360
+There are four different
+general categories of vaccine
+
+00:30:42.360 --> 00:30:43.380
+that are being pursued.
+
+00:30:43.380 --> 00:30:45.660
+One is genetic vaccines.
+
+00:30:45.660 --> 00:30:48.700
+The Moderna vaccine here
+in Boston is one of those.
+
+00:30:48.700 --> 00:30:50.730
+They're based on messenger RNA.
+
+00:30:50.730 --> 00:30:52.770
+DNA is another form.
+
+00:30:52.770 --> 00:30:56.250
+These used one or more genes to
+stimulate an immune response,
+
+00:30:56.250 --> 00:30:59.070
+genes from SARS-CoV-2.
+
+00:30:59.070 --> 00:31:01.350
+Inactivated viral vectors
+is another approach
+
+00:31:01.350 --> 00:31:04.290
+that's in part being done
+here in Boston by Dan
+
+00:31:04.290 --> 00:31:08.160
+Barouch in collaboration
+with Janssen
+
+00:31:08.160 --> 00:31:12.940
+and also by AstraZeneca in
+collaboration with Oxford.
+
+00:31:12.940 --> 00:31:16.800
+This is the use of
+another virus to deliver
+
+00:31:16.800 --> 00:31:21.630
+SARS-CoV-2 genes to cells to
+stimulate an immune response.
+
+00:31:21.630 --> 00:31:24.300
+A more standard approach
+that's been used for years
+
+00:31:24.300 --> 00:31:26.220
+is viral protein plus adjuvant.
+
+00:31:26.220 --> 00:31:29.050
+This is a little further
+behind in the pipeline,
+
+00:31:29.050 --> 00:31:31.470
+but it uses SARS-CoV-2
+protein or protein
+
+00:31:31.470 --> 00:31:35.220
+fragment, along with
+something to help stimulate
+
+00:31:35.220 --> 00:31:38.820
+the local milieu
+where the injection is
+
+00:31:38.820 --> 00:31:42.640
+made in order to stimulate
+an immune response.
+
+00:31:42.640 --> 00:31:45.210
+And finally,
+inactivated SARS-CoV-2,
+
+00:31:45.210 --> 00:31:48.900
+which is just inactivation
+of full virus, which
+
+00:31:48.900 --> 00:31:51.330
+has also been used
+in the past and is
+
+00:31:51.330 --> 00:31:54.360
+what the Chinese
+have already started
+
+00:31:54.360 --> 00:31:56.950
+using in some circumstances.
+
+00:31:56.950 --> 00:31:58.620
+Let me tell you a
+little bit about what
+
+00:31:58.620 --> 00:32:02.550
+we know from the work that
+we've done here in Boston.
+
+00:32:02.550 --> 00:32:05.302
+This has been led
+by Dan Barouch, one
+
+00:32:05.302 --> 00:32:07.260
+of the founding members
+of the Ragon Institute,
+
+00:32:07.260 --> 00:32:09.990
+who is also a
+physician-scientist
+
+00:32:09.990 --> 00:32:15.150
+and at the Beth Israel
+Deaconess Medical Center.
+
+00:32:15.150 --> 00:32:18.560
+As soon as the virus
+sequence was released,
+
+00:32:18.560 --> 00:32:23.640
+Dan ordered synthetic genes,
+started vaccine design built
+
+00:32:23.640 --> 00:32:27.386
+on a collaboration already
+existing with Janssen, Johnson
+
+00:32:27.386 --> 00:32:32.250
+&amp; Johnson, by the end of
+January to work together,
+
+00:32:32.250 --> 00:32:36.480
+then tested the vaccines
+in animals during February,
+
+00:32:36.480 --> 00:32:41.550
+established a challenge stock,
+and by the end of March already
+
+00:32:41.550 --> 00:32:47.460
+had data suggesting that this
+was immunogenic in monkeys.
+
+00:32:47.460 --> 00:32:50.520
+And Janssen made the
+decision to go forward
+
+00:32:50.520 --> 00:32:55.170
+with making, scaling
+up production
+
+00:32:55.170 --> 00:33:01.140
+in case the subsequent studies
+would show that the vaccine was
+
+00:33:01.140 --> 00:33:02.830
+safe and effective.
+
+00:33:02.830 --> 00:33:06.810
+The first human studies are
+going to be done in this month,
+
+00:33:06.810 --> 00:33:09.530
+and the expectation
+is by early 2021
+
+00:33:09.530 --> 00:33:12.330
+there'll be massive
+scale-up and emergency use
+
+00:33:12.330 --> 00:33:15.330
+authorization for the vaccine.
+
+00:33:15.330 --> 00:33:16.800
+Here are the data in monkeys.
+
+00:33:16.800 --> 00:33:18.780
+On the left, sham vaccination.
+
+00:33:18.780 --> 00:33:21.570
+Red is the composite
+for 10 animals.
+
+00:33:21.570 --> 00:33:24.660
+You can see that there
+is a marked increase
+
+00:33:24.660 --> 00:33:33.570
+in virus, and in this case,
+following vaccination and then
+
+00:33:33.570 --> 00:33:34.402
+challenge.
+
+00:33:34.402 --> 00:33:36.360
+But on the right, you
+see the marked difference
+
+00:33:36.360 --> 00:33:43.410
+using the spike protein
+as a vaccine antigen.
+
+00:33:43.410 --> 00:33:45.540
+And of the four animals
+that were in this,
+
+00:33:45.540 --> 00:33:49.410
+two of them actually never had
+a blip in virus, and two of them
+
+00:33:49.410 --> 00:33:54.730
+had a markedly attenuated level
+of virus in the bloodstream.
+
+00:33:54.730 --> 00:33:58.830
+So the goal here
+is that, instead
+
+00:33:58.830 --> 00:34:01.290
+of what happens with
+infection where you generate
+
+00:34:01.290 --> 00:34:03.960
+an antibody response,
+what will happen here
+
+00:34:03.960 --> 00:34:06.510
+is that through vaccination
+you'll generate antibodies.
+
+00:34:06.510 --> 00:34:09.780
+And then if the
+person then encounters
+
+00:34:09.780 --> 00:34:13.409
+virus, what will happen is
+either minimal infection
+
+00:34:13.409 --> 00:34:16.830
+or, in fact, no
+infection related
+
+00:34:16.830 --> 00:34:20.760
+to a massive increase
+in antibodies
+
+00:34:20.760 --> 00:34:26.230
+when they encounter the
+true virus infection.
+
+00:34:26.230 --> 00:34:28.800
+So how are we going to know
+if a vaccine is effective?
+
+00:34:28.800 --> 00:34:30.570
+Well, we have to
+test it in a place
+
+00:34:30.570 --> 00:34:32.460
+where there's a lot
+of transmission,
+
+00:34:32.460 --> 00:34:34.380
+and, sadly, in the
+world there's still
+
+00:34:34.380 --> 00:34:38.429
+a lot of transmission occurring,
+most of it in Asia, but also
+
+00:34:38.429 --> 00:34:41.940
+in South America,
+and North America,
+
+00:34:41.940 --> 00:34:43.710
+and rising numbers in Europe.
+
+00:34:43.710 --> 00:34:45.420
+In The New York Times
+on the front page
+
+00:34:45.420 --> 00:34:49.409
+this morning was an article
+about concern in Spain
+
+00:34:49.409 --> 00:34:53.429
+that there's a
+recrudescence of new cases.
+
+00:34:53.429 --> 00:34:57.720
+South Africa has had a major
+spike, but that has dwindled,
+
+00:34:57.720 --> 00:35:02.250
+but it's with extensive
+curtailment of activities.
+
+00:35:02.250 --> 00:35:06.660
+Also, we know, as shown in The
+New York Times vaccine tracker,
+
+00:35:06.660 --> 00:35:10.490
+that we're seeing lots
+of cases of infection
+
+00:35:10.490 --> 00:35:12.390
+that are being detected
+in colleges, which
+
+00:35:12.390 --> 00:35:16.830
+may be another place to test a
+vaccine, although many of these
+
+00:35:16.830 --> 00:35:22.620
+are actually going more
+to online education.
+
+00:35:22.620 --> 00:35:24.175
+So as we move
+forward, we're going
+
+00:35:24.175 --> 00:35:26.130
+to have to ultimately
+prioritize and decide,
+
+00:35:26.130 --> 00:35:29.440
+what are the vaccines that
+we really want to take?
+
+00:35:29.440 --> 00:35:31.620
+And what do we really
+want to promote
+
+00:35:31.620 --> 00:35:34.860
+to make 7 billion doses
+to be able to make it
+
+00:35:34.860 --> 00:35:37.030
+available for the entire world?
+
+00:35:37.030 --> 00:35:40.150
+The one question is, will the
+vaccine protect from infection
+
+00:35:40.150 --> 00:35:43.950
+or does it just
+protect from disease?
+
+00:35:43.950 --> 00:35:47.160
+And, ideally, we'd like to
+have a vaccine that completely
+
+00:35:47.160 --> 00:35:48.210
+protects from infection.
+
+00:35:48.210 --> 00:35:51.210
+That would be an
+antibody-based vaccine
+
+00:35:51.210 --> 00:35:54.600
+to get free virus before
+it can infect cells,
+
+00:35:54.600 --> 00:35:57.060
+but even something that
+protects from disease
+
+00:35:57.060 --> 00:36:01.560
+and keeps virus slow enough
+that people won't transmit
+
+00:36:01.560 --> 00:36:05.220
+would be extremely
+beneficial, and that
+
+00:36:05.220 --> 00:36:07.410
+would likely depend on T cells.
+
+00:36:07.410 --> 00:36:09.270
+How many doses are
+needed for protection?
+
+00:36:09.270 --> 00:36:11.640
+Well, if you need three
+doses given over six months
+
+00:36:11.640 --> 00:36:14.580
+to get to protection,
+that means that a vaccine
+
+00:36:14.580 --> 00:36:17.580
+available to be
+given in December
+
+00:36:17.580 --> 00:36:21.630
+won't actually protect
+people until next June.
+
+00:36:21.630 --> 00:36:24.420
+Will there be enough new
+infections to show it protects?
+
+00:36:24.420 --> 00:36:26.490
+I've just gone over that.
+
+00:36:26.490 --> 00:36:29.070
+How soon can the
+vaccine be available?
+
+00:36:29.070 --> 00:36:35.190
+And here, I think, one has to be
+aware of when the first vaccine
+
+00:36:35.190 --> 00:36:40.800
+is in a vial and can be
+given to a person versus when
+
+00:36:40.800 --> 00:36:43.780
+that vaccine is
+available worldwide,
+
+00:36:43.780 --> 00:36:45.360
+and you go into your
+doctor's office,
+
+00:36:45.360 --> 00:36:47.490
+and he's got it on a
+shelf, or her shelf,
+
+00:36:47.490 --> 00:36:52.080
+and can pull it off
+and give it to you.
+
+00:36:52.080 --> 00:36:56.460
+And so that's going to
+require massive scale-up,
+
+00:36:56.460 --> 00:37:00.390
+and I think all of us hope that
+multiple vaccines will actually
+
+00:37:00.390 --> 00:37:04.140
+make it to the finish
+line because none of these
+
+00:37:04.140 --> 00:37:08.920
+is going to easily make it to
+the level of 7 billion doses.
+
+00:37:08.920 --> 00:37:12.480
+For the vaccine that Dan
+Barouch is making with the Ragon
+
+00:37:12.480 --> 00:37:17.010
+Institute and the BIDMC,
+they have committed
+
+00:37:17.010 --> 00:37:20.520
+to making a billion doses.
+
+00:37:20.520 --> 00:37:25.230
+So the next topic is kind of
+enough of the vaccine be made.
+
+00:37:25.230 --> 00:37:27.210
+It's going to be
+challenging, but people
+
+00:37:27.210 --> 00:37:29.630
+are scaling that up right now.
+
+00:37:29.630 --> 00:37:33.150
+A critically important
+question is, does the vaccine
+
+00:37:33.150 --> 00:37:35.130
+work regardless of age?
+
+00:37:35.130 --> 00:37:37.230
+Most of the vaccine
+trials are not
+
+00:37:37.230 --> 00:37:39.180
+including people
+that are much older.
+
+00:37:39.180 --> 00:37:41.460
+The few that have
+in humans have shown
+
+00:37:41.460 --> 00:37:45.270
+that people that are most
+susceptible in terms of age
+
+00:37:45.270 --> 00:37:49.680
+are less likely to make an
+immune response to the vaccine
+
+00:37:49.680 --> 00:37:52.420
+vectors that they've been given.
+
+00:37:52.420 --> 00:37:55.150
+Another critical question is
+whether a vaccine requires
+
+00:37:55.150 --> 00:38:00.100
+a "cold chain," and
+this is really critical
+
+00:38:00.100 --> 00:38:02.270
+when one thinks about
+global delivery.
+
+00:38:02.270 --> 00:38:05.130
+If you have to keep
+the vaccine on dry ice,
+
+00:38:05.130 --> 00:38:08.530
+and you have to deliver it
+to rural areas in Africa--
+
+00:38:08.530 --> 00:38:12.430
+moreover, if you have to
+aliquot the vaccine once you
+
+00:38:12.430 --> 00:38:17.080
+get to the community that you're
+trying to administer it in,
+
+00:38:17.080 --> 00:38:22.990
+that requires special facilities
+and special measures that
+
+00:38:22.990 --> 00:38:25.300
+will make it much, much
+more difficult. So,
+
+00:38:25.300 --> 00:38:28.810
+ideally, we want no
+"cold chain" requirement.
+
+00:38:28.810 --> 00:38:31.570
+How durable is the immunity
+the vaccine induces?
+
+00:38:31.570 --> 00:38:34.960
+Well, there already have
+been some suggestions
+
+00:38:34.960 --> 00:38:37.940
+of reinfection of people that
+have already been infected.
+
+00:38:37.940 --> 00:38:42.796
+Shiv Pallai's work suggests that
+the antibodies being produced
+
+00:38:42.796 --> 00:38:51.340
+are not normal in
+that the lymph nodes
+
+00:38:51.340 --> 00:38:52.600
+themselves are not normal.
+
+00:38:52.600 --> 00:38:57.700
+They don't generate
+germinal centers.
+
+00:38:57.700 --> 00:39:05.600
+So I think, personally, I
+think the word is still out.
+
+00:39:05.600 --> 00:39:10.030
+It's still unclear whether
+these immune responses that
+
+00:39:10.030 --> 00:39:11.530
+are generated by
+natural immunity
+
+00:39:11.530 --> 00:39:16.480
+actually do provide long-term
+protection, and time will tell.
+
+00:39:16.480 --> 00:39:19.540
+Another critical question is,
+do vaccine-induced antibodies
+
+00:39:19.540 --> 00:39:21.400
+enhance infection?
+
+00:39:21.400 --> 00:39:23.320
+Or is it possible
+even that they may
+
+00:39:23.320 --> 00:39:25.795
+contribute to multifocal
+inflammatory syndrome
+
+00:39:25.795 --> 00:39:27.620
+in children?
+
+00:39:27.620 --> 00:39:30.310
+And another thing
+that's not on this slide
+
+00:39:30.310 --> 00:39:36.190
+is that, in fact, children, or
+people less than 18 years old,
+
+00:39:36.190 --> 00:39:39.610
+is a whole other category
+of individuals that,
+
+00:39:39.610 --> 00:39:41.560
+appropriately, are
+not being tested right
+
+00:39:41.560 --> 00:39:44.170
+now in the first wave
+of these vaccines,
+
+00:39:44.170 --> 00:39:46.510
+as we're looking for safety.
+
+00:39:46.510 --> 00:39:50.050
+But when they when
+the trials are
+
+00:39:50.050 --> 00:39:54.290
+done in people that are 18 to
+65 years old, the question is,
+
+00:39:54.290 --> 00:39:57.670
+will there need to be a
+whole separate set of studies
+
+00:39:57.670 --> 00:40:02.200
+done in children in order
+to get licensure to give
+
+00:40:02.200 --> 00:40:06.550
+these things to children to know
+that they're safe in children?
+
+00:40:06.550 --> 00:40:10.000
+So this is a really
+important point
+
+00:40:10.000 --> 00:40:14.020
+that I don't think has been
+given enough attention.
+
+00:40:14.020 --> 00:40:18.430
+At least, it's not
+clear from what
+
+00:40:18.430 --> 00:40:20.770
+I've read what the
+actual plans are
+
+00:40:20.770 --> 00:40:27.310
+for development and licensure
+of these vaccines for children.
+
+00:40:27.310 --> 00:40:31.280
+So I think, while we're
+waiting for a vaccine,
+
+00:40:31.280 --> 00:40:34.400
+we have to ask what
+else can we do.
+
+00:40:34.400 --> 00:40:37.840
+We, in the Boston
+and Cambridge area,
+
+00:40:37.840 --> 00:40:41.260
+I think, as a group of
+scientists recognized that this
+
+00:40:41.260 --> 00:40:43.840
+was going to be a really
+challenging problem,
+
+00:40:43.840 --> 00:40:46.450
+and we felt we had
+something to contribute.
+
+00:40:46.450 --> 00:40:49.600
+In fact, we felt we had
+something to contribute
+
+00:40:49.600 --> 00:40:53.110
+on a grander scale if we could
+get everybody collaborating
+
+00:40:53.110 --> 00:40:53.650
+together.
+
+00:40:53.650 --> 00:40:59.110
+So on March 3, I had, I
+think, what for all of us
+
+00:40:59.110 --> 00:41:03.310
+was a really unique experience,
+where we got together
+
+00:41:03.310 --> 00:41:10.120
+with about 85 scientists from
+Harvard, MIT, UMass, Tufts,
+
+00:41:10.120 --> 00:41:13.000
+and Boston University
+to talk about what
+
+00:41:13.000 --> 00:41:15.720
+we as a scientific
+community could do,
+
+00:41:15.720 --> 00:41:19.510
+and a clinical community could
+do, to address this pandemic.
+
+00:41:19.510 --> 00:41:21.880
+And what came out of that
+was the establishment
+
+00:41:21.880 --> 00:41:24.790
+of the Massachusetts Consortium
+on Pathogen Readiness,
+
+00:41:24.790 --> 00:41:29.050
+Mass CPR, which has been
+an extraordinary experience
+
+00:41:29.050 --> 00:41:30.280
+for all of us involved.
+
+00:41:30.280 --> 00:41:33.340
+I've never seen the
+kind of collaboration
+
+00:41:33.340 --> 00:41:38.680
+that has evolved
+from this consortium.
+
+00:41:38.680 --> 00:41:40.390
+We have six different
+working groups
+
+00:41:40.390 --> 00:41:44.410
+in areas ranging from clinical
+and outcomes research,
+
+00:41:44.410 --> 00:41:48.460
+to diagnostics, to
+therapeutics, to pathogenesis,
+
+00:41:48.460 --> 00:41:56.350
+and to vaccines and
+epidemiology, and a huge amount
+
+00:41:56.350 --> 00:41:59.470
+of collaboration and sharing
+that's been happening.
+
+00:41:59.470 --> 00:42:01.570
+We've also been
+closely collaborating
+
+00:42:01.570 --> 00:42:08.440
+with investigators in China
+who are at the Guangzhou
+
+00:42:08.440 --> 00:42:11.020
+Institute for Respiratory
+Health, which has
+
+00:42:11.020 --> 00:42:13.570
+been a fabulous collaboration.
+
+00:42:13.570 --> 00:42:19.060
+And I'm really optimistic, given
+the number of people working
+
+00:42:19.060 --> 00:42:23.770
+on this problem, and the
+selflessness with which people
+
+00:42:23.770 --> 00:42:27.460
+have been working,
+that we will make
+
+00:42:27.460 --> 00:42:29.660
+real progress going forward.
+
+00:42:29.660 --> 00:42:33.490
+And I think we already have
+seen extraordinary progress up
+
+00:42:33.490 --> 00:42:35.110
+to this point.
+
+00:42:35.110 --> 00:42:37.930
+I think the other thing that we
+can do is follow the science.
+
+00:42:37.930 --> 00:42:43.510
+We know how transmission occurs,
+and there's been a lot of talk
+
+00:42:43.510 --> 00:42:46.930
+about droplets versus
+aerosols and how long they
+
+00:42:46.930 --> 00:42:49.250
+stay in the air, et cetera.
+
+00:42:49.250 --> 00:42:51.760
+But I think the critical
+experiment has really
+
+00:42:51.760 --> 00:42:53.660
+been done, and the
+fact of the matter
+
+00:42:53.660 --> 00:42:57.230
+is we know how to
+prevent transmission.
+
+00:42:57.230 --> 00:43:00.800
+And that experiment was
+done in the hospitals, where
+
+00:43:00.800 --> 00:43:03.800
+masks were worn by everybody.
+
+00:43:03.800 --> 00:43:06.340
+Distancing couldn't
+actually be achieved,
+
+00:43:06.340 --> 00:43:09.860
+but hand washing could,
+and what we did not see
+
+00:43:09.860 --> 00:43:12.690
+was major outbreaks among
+health care workers.
+
+00:43:12.690 --> 00:43:15.380
+In fact, at Mass
+General, the incidence
+
+00:43:15.380 --> 00:43:16.970
+of infection among
+health care workers
+
+00:43:16.970 --> 00:43:19.260
+is less than in the community.
+
+00:43:19.260 --> 00:43:22.820
+I think that shows
+us that masks work,
+
+00:43:22.820 --> 00:43:31.070
+and I think, while we're all
+working as vigorously as we can
+
+00:43:31.070 --> 00:43:33.980
+to come up with solutions
+in terms of therapeutics
+
+00:43:33.980 --> 00:43:37.100
+and vaccines, if
+we wear our masks,
+
+00:43:37.100 --> 00:43:41.310
+we will prevent
+transmissions from happening.
+
+00:43:41.310 --> 00:43:43.490
+So let me make a
+few conclusions.
+
+00:43:43.490 --> 00:43:45.560
+One is that advances
+in other fields
+
+00:43:45.560 --> 00:43:49.130
+have clearly accelerated
+responses to COVID-19.
+
+00:43:49.130 --> 00:43:51.770
+Everything that we've done
+at the Ragon Institute
+
+00:43:51.770 --> 00:43:55.910
+has been based on things that
+we learned from working on HIV,
+
+00:43:55.910 --> 00:44:02.450
+including the entire
+backbone for Dan's vaccine.
+
+00:44:02.450 --> 00:44:04.490
+SARS-CoV-2 infection
+is transmitted
+
+00:44:04.490 --> 00:44:07.460
+prior to symptoms, which is
+how it's spread so rapidly
+
+00:44:07.460 --> 00:44:10.730
+and why it's so important
+that everybody wear masks.
+
+00:44:10.730 --> 00:44:13.610
+Infection results in a
+hyperinflammatory state,
+
+00:44:13.610 --> 00:44:18.290
+involving multiple organs,
+and that is what makes,
+
+00:44:18.290 --> 00:44:21.950
+what we think contributes to
+a lot of the pathogenesis.
+
+00:44:21.950 --> 00:44:24.950
+There are currently no
+highly-effective treatments,
+
+00:44:24.950 --> 00:44:29.510
+even though there are some
+that have marginal impact,
+
+00:44:29.510 --> 00:44:33.520
+but we really need better drugs.
+
+00:44:33.520 --> 00:44:35.660
+And while we're
+waiting for a vaccine,
+
+00:44:35.660 --> 00:44:37.520
+effective prevention
+can be achieved
+
+00:44:37.520 --> 00:44:41.030
+with masks, physical
+distancing, and hand washing.
+
+00:44:41.030 --> 00:44:44.670
+There has been unprecedented
+progress toward a vaccine.
+
+00:44:44.670 --> 00:44:48.800
+We have to be sure that that
+vaccine is safe and effective
+
+00:44:48.800 --> 00:44:52.730
+by the time we actually
+administer it more broadly.
+
+00:44:52.730 --> 00:44:55.130
+And, clearly, there's
+still much to be
+
+00:44:55.130 --> 00:44:57.950
+done and much that people--
+
+00:44:57.950 --> 00:45:01.010
+no matter what your discipline
+is among the students that
+
+00:45:01.010 --> 00:45:05.400
+are listening to this talk,
+it intersects with a pandemic,
+
+00:45:05.400 --> 00:45:10.280
+whether it be in the scientific
+realm, the psychological realm,
+
+00:45:10.280 --> 00:45:16.950
+the therapeutic realm, the
+economic realm, et cetera.
+
+00:45:16.950 --> 00:45:22.350
+So we can all contribute
+to a solution.
+
+00:45:22.350 --> 00:45:25.310
+And with that, I will thank
+you for your attention,
+
+00:45:25.310 --> 00:45:30.520
+and I'm happy to
+answer some questions
+
+00:45:30.520 --> 00:45:32.920
+RICHARD YOUNG: Bruce,
+thank you so much.
+
+00:45:32.920 --> 00:45:36.560
+The students have a
+number of questions.
+
+00:45:36.560 --> 00:45:40.210
+One is asking you,
+why do you think
+
+00:45:40.210 --> 00:45:43.358
+the US is among the most
+highly-infected nations
+
+00:45:43.358 --> 00:45:43.900
+in the world?
+
+00:45:47.180 --> 00:45:52.310
+BRUCE WALKER: Well, I
+think that you can actually
+
+00:45:52.310 --> 00:45:55.190
+see that in the
+tracings that I showed,
+
+00:45:55.190 --> 00:45:58.460
+in the last month or so,
+the number of infections
+
+00:45:58.460 --> 00:46:01.220
+have come down in
+the US, and that
+
+00:46:01.220 --> 00:46:06.290
+is directly correlated with
+increased adherence to the use
+
+00:46:06.290 --> 00:46:09.140
+of masks and social distancing.
+
+00:46:09.140 --> 00:46:11.720
+Other countries implemented
+those measures right away.
+
+00:46:11.720 --> 00:46:14.900
+They did complete lockdowns
+like we did, but came back
+
+00:46:14.900 --> 00:46:21.140
+from the lockdowns with
+continued, really vigorous
+
+00:46:21.140 --> 00:46:24.470
+adherence to the
+prevention measures that
+
+00:46:24.470 --> 00:46:26.600
+were available to us.
+
+00:46:26.600 --> 00:46:33.240
+And it's not really a surprise
+that masks would be important.
+
+00:46:33.240 --> 00:46:35.660
+In fact, it's important
+you wear a mask so
+
+00:46:35.660 --> 00:46:38.600
+that you protect other people.
+
+00:46:38.600 --> 00:46:40.190
+I don't think
+anybody on this call
+
+00:46:40.190 --> 00:46:45.260
+would want to have open heart
+surgery with their physician,
+
+00:46:45.260 --> 00:46:51.050
+surgeon, and OR nurse
+not wearing masks.
+
+00:46:51.050 --> 00:46:52.550
+They don't wear
+them because they're
+
+00:46:52.550 --> 00:46:55.010
+afraid of getting some
+infection from the patient.
+
+00:46:55.010 --> 00:46:58.320
+They're wearing them to
+prevent infecting the patient.
+
+00:46:58.320 --> 00:47:02.030
+We know that masks
+can do that, and so I
+
+00:47:02.030 --> 00:47:07.250
+think that's a
+critical factor here,
+
+00:47:07.250 --> 00:47:10.670
+and one of the unknowns for
+the future as to whether people
+
+00:47:10.670 --> 00:47:15.470
+will really adhere to
+that and whether people
+
+00:47:15.470 --> 00:47:19.490
+will understand
+that there are times
+
+00:47:19.490 --> 00:47:25.280
+when we need to limit our own
+freedoms in order to protect
+
+00:47:25.280 --> 00:47:27.350
+the population at large.
+
+00:47:27.350 --> 00:47:30.650
+And there are lots of
+examples of decisions
+
+00:47:30.650 --> 00:47:34.280
+that we as a society
+make to do just that,
+
+00:47:34.280 --> 00:47:38.150
+and I think this is a situation
+where we need to do the same.
+
+00:47:38.150 --> 00:47:39.680
+RICHARD YOUNG: And
+Tara is asking,
+
+00:47:39.680 --> 00:47:44.870
+about how long active
+recovery from infection
+
+00:47:44.870 --> 00:47:48.770
+does the antibody test
+results remain positive?
+
+00:47:48.770 --> 00:47:51.710
+BRUCE WALKER: So this is a
+really critical and unanswered
+
+00:47:51.710 --> 00:47:54.320
+question as yet.
+
+00:47:54.320 --> 00:48:00.470
+So we only know as long as
+the epidemic has been around,
+
+00:48:00.470 --> 00:48:04.280
+and there is evidence
+that in some people
+
+00:48:04.280 --> 00:48:08.510
+antibody levels are declining
+to become undetectable
+
+00:48:08.510 --> 00:48:11.850
+over a fairly short
+period of time.
+
+00:48:11.850 --> 00:48:16.130
+There is concern I alluded
+to for at least four cases
+
+00:48:16.130 --> 00:48:19.340
+of reported reinfection of
+people that have already
+
+00:48:19.340 --> 00:48:23.870
+been infected, presumably
+because antibodies, which we
+
+00:48:23.870 --> 00:48:27.320
+have very good evidence that
+the antibodies can be protective
+
+00:48:27.320 --> 00:48:31.340
+if they're there, but these
+people have gotten reinfected.
+
+00:48:31.340 --> 00:48:32.960
+We don't know their
+antibody levels
+
+00:48:32.960 --> 00:48:36.050
+to really know how
+that correlated,
+
+00:48:36.050 --> 00:48:38.630
+but that's a really big concern.
+
+00:48:38.630 --> 00:48:41.390
+And, obviously, that
+would have a big impact
+
+00:48:41.390 --> 00:48:44.010
+for the development
+of herd immunity,
+
+00:48:44.010 --> 00:48:49.660
+which is when enough people have
+immunity that others won't--
+
+00:48:49.660 --> 00:48:53.077
+that the virus can't easily
+transmit through a population
+
+00:48:53.077 --> 00:48:54.410
+because it doesn't have enough--
+
+00:48:54.410 --> 00:48:56.910
+there aren't enough
+susceptible hosts.
+
+00:48:56.910 --> 00:48:59.230
+Now, the question that was
+asked was about somebody
+
+00:48:59.230 --> 00:49:00.350
+who becomes infected.
+
+00:49:00.350 --> 00:49:02.690
+How long do those
+antibodies last?
+
+00:49:02.690 --> 00:49:06.230
+Now, I think the data
+that Shiv has generated
+
+00:49:06.230 --> 00:49:08.750
+suggests why they
+may not last long,
+
+00:49:08.750 --> 00:49:10.550
+but what about immunization?
+
+00:49:10.550 --> 00:49:12.680
+Well, how long will
+those antibodies last?
+
+00:49:12.680 --> 00:49:14.750
+And that's something
+else we don't know,
+
+00:49:14.750 --> 00:49:18.320
+but my sense is that that's
+likely to last longer because
+
+00:49:18.320 --> 00:49:22.070
+rather than trying to generate
+an antibody response in a lymph
+
+00:49:22.070 --> 00:49:27.090
+node that's infected with
+live virus, in this case,
+
+00:49:27.090 --> 00:49:31.010
+you're taking a
+fragment of virus,
+
+00:49:31.010 --> 00:49:33.830
+delivering it to a lymph
+node, and the lymph node's
+
+00:49:33.830 --> 00:49:35.450
+learning how to--
+
+00:49:35.450 --> 00:49:37.760
+teaching the immune
+response to recognize it
+
+00:49:37.760 --> 00:49:41.780
+without being impaired by the
+ongoing virus replication.
+
+00:49:41.780 --> 00:49:44.240
+So I think that those
+are likely to be
+
+00:49:44.240 --> 00:49:49.690
+two very different things,
+but time will tell.
+
+00:49:49.690 --> 00:49:51.350
+RICHARD YOUNG: Lena
+is asking if you
+
+00:49:51.350 --> 00:49:54.560
+can comment on the
+mutability of SARS-CoV-2
+
+00:49:54.560 --> 00:50:00.890
+and the impact of emerging
+mutations on our plans
+
+00:50:00.890 --> 00:50:02.570
+to vaccinate.
+
+00:50:02.570 --> 00:50:05.270
+BRUCE WALKER: Yeah, this is
+another really good question.
+
+00:50:05.270 --> 00:50:13.730
+So SARS-CoV-2 is
+nothing like HIV, which
+
+00:50:13.730 --> 00:50:15.920
+mutates at an incredible rate.
+
+00:50:15.920 --> 00:50:22.310
+In fact, if I compare an HIV
+virus sequence from Boston
+
+00:50:22.310 --> 00:50:24.710
+to one in South
+Africa, they may be
+
+00:50:24.710 --> 00:50:30.260
+40% different in the
+envelope, so we've never
+
+00:50:30.260 --> 00:50:32.990
+dealt with trying to make a
+vaccine to a pathogen that
+
+00:50:32.990 --> 00:50:33.860
+diverse.
+
+00:50:33.860 --> 00:50:38.780
+In contrast, SARS-CoV-2
+has very few mutations.
+
+00:50:38.780 --> 00:50:43.020
+It does mutate,
+and the consequence
+
+00:50:43.020 --> 00:50:45.360
+of those mutations
+on immune recognition
+
+00:50:45.360 --> 00:50:49.530
+are still being sorted
+out, but there is concern.
+
+00:50:49.530 --> 00:50:53.640
+And, clearly, the
+whole population,
+
+00:50:53.640 --> 00:50:57.150
+the global population
+of SARS has already
+
+00:50:57.150 --> 00:51:00.570
+shifted to some extent, and
+I know that Dan has already
+
+00:51:00.570 --> 00:51:04.140
+made another vaccine with
+a second strain of SARS
+
+00:51:04.140 --> 00:51:05.740
+just in case.
+
+00:51:05.740 --> 00:51:10.180
+What will be critical is whether
+the mutations that arise,
+
+00:51:10.180 --> 00:51:15.540
+albeit we expect them to be
+far, far less than with HIV,
+
+00:51:15.540 --> 00:51:19.560
+whether those will actually
+result in immune escape.
+
+00:51:19.560 --> 00:51:24.420
+And, again, this
+is a reason why we
+
+00:51:24.420 --> 00:51:29.280
+need to do lots of sequencing
+and lots of surveillance
+
+00:51:29.280 --> 00:51:34.080
+to keep ahead of
+this, and it may
+
+00:51:34.080 --> 00:51:38.890
+be that, like other
+infections like influenza,
+
+00:51:38.890 --> 00:51:43.620
+there is a requirement
+for updating vaccines
+
+00:51:43.620 --> 00:51:46.160
+on a regular basis.
+
+00:51:46.160 --> 00:51:50.150
+RICHARD YOUNG: Another student's
+asking for the genetic vaccine,
+
+00:51:50.150 --> 00:51:53.750
+or vaccines using inactivated
+viral vectors, what
+
+00:51:53.750 --> 00:51:57.772
+are the concerns of long-term
+effects of the vectors
+
+00:51:57.772 --> 00:52:00.380
+or delivery methods?
+
+00:52:00.380 --> 00:52:04.310
+BRUCE WALKER: So with
+the genetic vaccines,
+
+00:52:04.310 --> 00:52:07.730
+there's less experience
+with those, and so
+
+00:52:07.730 --> 00:52:09.950
+the clinical trials
+that are ongoing now,
+
+00:52:09.950 --> 00:52:13.020
+both for other
+diseases-- for example,
+
+00:52:13.020 --> 00:52:17.690
+Moderna has other pathogens that
+they've developed vaccines for,
+
+00:52:17.690 --> 00:52:21.020
+so they have more
+human data from those.
+
+00:52:21.020 --> 00:52:24.240
+DNA vaccines, likewise, have
+been used for other pathogens,
+
+00:52:24.240 --> 00:52:27.920
+so that data have
+been generated.
+
+00:52:27.920 --> 00:52:31.075
+In terms of inactivated viruses,
+we've used those for years.
+
+00:52:33.890 --> 00:52:39.080
+You can ask, why didn't we
+do that approach with HIV?
+
+00:52:39.080 --> 00:52:42.050
+In fact, in the monkey
+model, it looked
+
+00:52:42.050 --> 00:52:44.210
+like an inactivated
+virus worked,
+
+00:52:44.210 --> 00:52:48.200
+but the concern is just
+whether the virus could somehow
+
+00:52:48.200 --> 00:52:50.840
+become reactivated
+and become infectious.
+
+00:52:50.840 --> 00:52:53.450
+And I think that's
+tempered enthusiasm
+
+00:52:53.450 --> 00:52:57.140
+for inactivated
+vaccines, but there
+
+00:52:57.140 --> 00:53:02.720
+are, I think, ways to make
+an inactivated vaccine safe,
+
+00:53:02.720 --> 00:53:04.760
+but that's the main concern.
+
+00:53:04.760 --> 00:53:10.730
+Another concern is that it's
+more laborious and expensive
+
+00:53:10.730 --> 00:53:13.670
+to make inactivated vaccines
+because you have to grow up
+
+00:53:13.670 --> 00:53:16.520
+a huge amount of virus
+in order to do that,
+
+00:53:16.520 --> 00:53:21.710
+and these entirely synthetic
+approaches that can be used,
+
+00:53:21.710 --> 00:53:29.420
+like with mRNA, are potentially
+a real plus if we can do that
+
+00:53:29.420 --> 00:53:32.780
+without having to
+rely on cell culture
+
+00:53:32.780 --> 00:53:36.590
+and other aspects that
+are required for the more
+
+00:53:36.590 --> 00:53:38.780
+traditional approaches.
+
+00:53:38.780 --> 00:53:40.530
+RICHARD YOUNG: Many
+students had questions
+
+00:53:40.530 --> 00:53:43.980
+about reinfection
+and the possibility
+
+00:53:43.980 --> 00:53:48.990
+that reinfection is a
+consequence of the antibodies
+
+00:53:48.990 --> 00:53:52.050
+just not doing what
+they need to do.
+
+00:53:52.050 --> 00:53:55.140
+Do you have a view
+on reinfection,
+
+00:53:55.140 --> 00:53:59.940
+the extent to which it
+happens and the implications?
+
+00:53:59.940 --> 00:54:01.990
+BRUCE WALKER: And
+there's another concern
+
+00:54:01.990 --> 00:54:05.912
+about reinfection
+based on dengue virus,
+
+00:54:05.912 --> 00:54:08.370
+and that is where the antibodies
+could actually make things
+
+00:54:08.370 --> 00:54:11.070
+worse the second time around.
+
+00:54:11.070 --> 00:54:13.440
+One of these cases
+of reinfection,
+
+00:54:13.440 --> 00:54:16.650
+not to alarm people, did
+look like it was worse
+
+00:54:16.650 --> 00:54:18.990
+the second time around,
+but so far, there's
+
+00:54:18.990 --> 00:54:23.070
+no evidence from the
+earlier SARS data
+
+00:54:23.070 --> 00:54:26.580
+that I think are compelling.
+
+00:54:26.580 --> 00:54:28.570
+There's no evidence
+to suggest that there
+
+00:54:28.570 --> 00:54:32.160
+is this phenomenon of
+antibody-dependent enhancement.
+
+00:54:32.160 --> 00:54:35.430
+I think, in terms of
+protecting from infection,
+
+00:54:35.430 --> 00:54:37.145
+antibodies are going to--
+
+00:54:37.145 --> 00:54:38.520
+neutralizing
+antibodies are going
+
+00:54:38.520 --> 00:54:41.490
+to be required to do
+that, from reinfection.
+
+00:54:41.490 --> 00:54:45.030
+So not everybody generates
+sufficient levels
+
+00:54:45.030 --> 00:54:46.590
+of neutralizing
+antibodies, probably,
+
+00:54:46.590 --> 00:54:49.650
+from their first infection.
+
+00:54:49.650 --> 00:54:52.620
+I think, though,
+that T cells may also
+
+00:54:52.620 --> 00:54:55.920
+play a really big role
+in cases of reinfection
+
+00:54:55.920 --> 00:54:59.550
+because if the virus slips
+through the first defense
+
+00:54:59.550 --> 00:55:02.250
+of antibodies and
+gets into cells,
+
+00:55:02.250 --> 00:55:06.000
+then T cells are the
+main effector mechanism
+
+00:55:06.000 --> 00:55:08.370
+that can eliminate virus.
+
+00:55:08.370 --> 00:55:14.130
+And so I think
+attention to vaccines
+
+00:55:14.130 --> 00:55:18.270
+that not only produce antibodies
+but also produce T cells
+
+00:55:18.270 --> 00:55:19.470
+is important.
+
+00:55:19.470 --> 00:55:24.780
+Moreover, there's a
+second kind of T cell
+
+00:55:24.780 --> 00:55:26.070
+besides the killer cell.
+
+00:55:26.070 --> 00:55:29.250
+Those are helper cells
+that help to orchestrate
+
+00:55:29.250 --> 00:55:32.850
+an effective antibody response
+in those germinal centers,
+
+00:55:32.850 --> 00:55:40.950
+and so generating COVID-specific
+T helper cell responses,
+
+00:55:40.950 --> 00:55:43.420
+I think, may also
+be really important,
+
+00:55:43.420 --> 00:55:50.270
+particularly for the prospect
+of potential reinfection.
+
+00:55:50.270 --> 00:55:53.800
+RICHARD YOUNG: Bruce, we so
+appreciate you giving this,
+
+00:55:53.800 --> 00:55:59.750
+an introduction to the disease,
+the virus, the pandemic.
+
+00:55:59.750 --> 00:56:03.738
+Thank you very much, and we'll
+see all of you again next week.
+
+00:56:03.738 --> 00:56:05.030
+BRUCE WALKER: Thanks very much.
+
+00:56:05.030 --> 00:56:06.970
+I enjoyed it.
+
