@@ -112,7 +112,7 @@ for block in block_list:
 # transformers pipeline to summarize the shit
 
 returned_list = post_summarization_cleanup(bullet_list)
-final_str = post_summarization_formatting(returned_list)
+final_str = post_summarization_formatting(returned_list, "-", "-")
 # final_str is the formatted thing
 
 text_file = open("/Users/arjunneervannan/Desktop/sample.txt", "w")
