@@ -40,7 +40,7 @@ def contact():
 
 @app.route('/results')
 def results():
-    result = render_template("Original Text")
+    result = process_transcript("Original Text")
     return render_template('results.html', app_data=app_data, text_result=result)
 
 
