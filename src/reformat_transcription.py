@@ -6,8 +6,8 @@ Created on Fri Sep 11 19:42:52 2020
 """
 def reformat_transcription(file_location):
 
-	###text = open( "src/" + file_location, "r")
-    text = open(file_location, "r", encoding='utf-8-sig')
+    text = open( "src/" + file_location, "r", encoding='utf-8-sig')
+
 
     content = text.read()
     

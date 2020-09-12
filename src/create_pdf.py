@@ -10,7 +10,7 @@ from fpdf import FPDF
 class PDF(FPDF):
     def pdf_it(self, name):
         # Read text file
-        with open(name, 'r', encoding='utf-8-sig') as fh:
+        with open("src/" + name, 'r', encoding='utf-8-sig') as fh:
             txt = fh.read()
         # Times 12
         self.set_font('Times', '', 12)
