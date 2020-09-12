@@ -1,13 +1,38 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<div class="jumbotron">
-    <h1 class="display-4">Bootstrap starter template by {{ app_data['author'] }} </h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <p>Title: {{ app_data['html_title'] }}</p>
+    <div class="jumbotron">
+        <h1 class="display-4">Note Summarizer built by {{ app_data['author'] }} </h1>
+        <img src="../static/img/rajiv.jpeg" class="rounded mx-auto d-block" alt="rajiv pic">
+        <p class="text-center">Dedicated to our benevolent overlord Dr. Rajiv Gandhi</p>
+        <hr class="my-4">
+        <p class="lead">Enter your link to your Zoom lecture here:</p>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Link to transcript</label>
+                <input type="url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                       placeholder="Enter link">
+                {#                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone#}
+                {#                    else.</small>#}
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Alternatively, copy paste your transcript into the space
+                    below:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            {#            <div class="form-group">#}
+            {#                <label for="exampleInputPassword1">Password</label>#}
+            {#                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">#}
+            {#            </div>#}
+            {#            <div class="form-check">#}
+            {#                <input type="checkbox" class="form-check-input" id="exampleCheck1">#}
+            {#                <label class="form-check-label" for="exampleCheck1">Zoom</label>#}
+            {#            </div>#}
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="/contact" role="button">Contact</a>
-  </div>
+    </div>
+
+
+
 {% endblock %}
