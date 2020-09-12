@@ -3,7 +3,7 @@
 
 
 from flask import Flask, render_template, Response, send_file, request
-from src.reformat_transcription import reformat_transcription
+from src.summarizer import reformat_transcription
 import fpdf
 
 DEVELOPMENT_ENV = True
