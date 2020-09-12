@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, render_template
+from src.process_transcript import process_transcript
 
 DEVELOPMENT_ENV = True
 
@@ -9,7 +10,7 @@ app = Flask(__name__)
 
 app_data = {
     "name": "Hackathon Project",
-    "description": "Hackathon Project made by the DM team",
+    "description": "Hackathon Project made by the Discreet Math team",
     "author": "Discreet Math",
     "html_title": "Hackathon Project made by the DM team",
     "project_name": "Note Summarizer",
@@ -39,7 +40,8 @@ def contact():
 
 @app.route('/results')
 def results():
-    return render_template('results.html', app_data=app_data)
+    result = render_template("Original Text")
+    return render_template('results.html', app_data=app_data, text_result=result)
 
 
 if __name__ == '__main__':

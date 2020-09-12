@@ -3,10 +3,10 @@
 {% block body %}
     <div class="jumbotron">
         <h1 class="display-4">Note Summarizer built by {{ app_data['author'] }} </h1>
-        <img src="../static/img/rajiv.jpeg" class="rounded mx-auto d-block" alt="rajiv pic">
+        <img src={{ url_for('static', filename='img/rajiv.jpeg') }} class="rounded mx-auto d-block" alt="rajiv pic">
         <p class="text-center">Dedicated to our benevolent overlord Dr. Rajiv Gandhi</p>
         <hr class="my-4">
-        <p class="lead">Enter your link to your Zoom lecture here:</p>
+        <p class="lead">Enter your link to your Zoom lecture recording here:</p>
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail1">Link to transcript</label>
