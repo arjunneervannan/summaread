@@ -2,8 +2,12 @@
 ###### Requirements without Version Specifiers ######
 -f https://download.pytorch.org/whl/torch_stable.html
 flask
+google-cloud-videointelligence
+google-cloud-language
+google-cloud-storage
 fpdf
 webvtt-py
+youtube-dl
 torch==1.6.0+cpu
 torchvision==0.7.0+cpu
 transformers

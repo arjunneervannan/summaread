@@ -3,7 +3,7 @@
 
 
 from flask import Flask, render_template, Response, send_file, request
-# from src.summarizer import reformat_transcription
+from src.summarizer import reformat_transcription
 import fpdf
 
 DEVELOPMENT_ENV = True
@@ -68,7 +68,6 @@ def return_files():
 def download_file():
     path = "src/Summarized Notes.pdf"
     return send_file(path, as_attachment=True)
-
 
 
 if __name__ == '__main__':
