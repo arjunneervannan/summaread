@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 from transformers import pipeline
 import webvtt
-import csv
+from spacy.lang.en import English
+
+nlp = English()
+sbd = nlp.create_pipe('sentencizer')
+nlp.add_pipe(sbd)
 
 
 def reformat_transcription(file_name):
@@ -55,26 +59,43 @@ def post_summarization_cleanup(bullet_list):
 
 
 def post_summarization_formatting(returned_list):
-    caption_list = reformat_transcription("Transcript.vtt")
-    caption_list = clean_transcript(caption_list)
-    block_list = group_lines(caption_list, 20)
-    # print(caption_list)
-    # print(block_list)
+    final_str = ""
+    for lines in returned_list:
+        sentences = lines.split(".")
+        for index, sentence in enumerate(sentences):
+            if index == 0:
+                final_str += " • " + sentence + "\n"
+            elif len(sentence.split(" ")) < 6:
+                continue
+            else:
+                final_str += "     ○ " + sentence + "\n"
+        final_str += "\n"
+    return final_str
 
-    # text_lines = group_lines(content_list, 5)
-    summarizer = pipeline("summarization")
-    bullet_list = []
-    for block in block_list:
-        bullets = summarizer(str(block[1]), min_length=20, max_length=40)
-        bullet_list.append(bullets)
 
-    returned_list = post_summarization_cleanup(bullet_list)
-    print("stop")
+caption_list = reformat_transcription("/Users/arjunneervannan/Desktop/transcript.vtt")
+caption_list = clean_transcript(caption_list)
+block_list = group_lines(caption_list, 20)
+# print(caption_list)
+# print(block_list)
 
-    # with open('/Users/arjunneervannan/Desktop/file.csv', 'w', newline='') as f:
-    #     writer = csv.writer(f)
-    #     writer.writerows(final_list)
+# text_lines = group_lines(content_list, 5)
+summarizer = pipeline("summarization")
+bullet_list = []
+for block in block_list:
+    print("summarized!")
+    bullets = summarizer(str(block[1]), min_length=20, max_length=40)
+    bullet_list.append(bullets)
 
-    with open('listfile.txt', 'w') as filehandle:
-        for listitem in returned_list:
-            filehandle.write('%s\n' % listitem)
+returned_list = post_summarization_cleanup(bullet_list)
+final_str = post_summarization_formatting(returned_list)
+print(final_str)
+print("stop")
+
+text_file = open("/Users/arjunneervannan/Desktop/sample.txt", "w")
+n = text_file.write(final_str)
+text_file.close()
+
+# with open('listfile.txt', 'w') as filehandle:
+#     for listitem in returned_list:
+#         filehandle.write('%s\n' % listitem)
