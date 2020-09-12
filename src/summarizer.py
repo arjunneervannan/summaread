@@ -82,17 +82,17 @@ def post_summarization_cleanup(bullet_list):
     return returned_list
 
 # converts into outline format
-def post_summarization_formatting(returned_list):
+def post_summarization_formatting(returned_list, delimiter_1, delimiter_2):
     final_str = ""
     for lines in returned_list:
         sentences = lines.split(".")
         for index, sentence in enumerate(sentences):
             if index == 0:
-                final_str += " • " + sentence + "\n"
+                final_str += " " + delimiter_1 + " " + sentence + "\n"
             elif len(sentence.split(" ")) < 6:
                 continue
             else:
-                final_str += "     ○ " + sentence + "\n"
+                final_str += "     " + delimiter_2 + " " + sentence + "\n"
         final_str += "\n"
     return final_str
 
