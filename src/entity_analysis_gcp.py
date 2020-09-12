@@ -37,6 +37,7 @@ def process_file(path):
 
     pickle.dump(wikipedia_entities, open("../videos/note_entities.pkl", "wb"))
     print("All done!")
+    return wikipedia_entities
 
 
 def load_pkl():
