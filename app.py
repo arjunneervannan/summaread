@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response, send_file, request
 from src.reformat_transcription import reformat_transcription
 import fpdf
-
 
 DEVELOPMENT_ENV = True
 
@@ -51,8 +50,8 @@ def results():
 
 @app.route('/download')
 def download_file():
-	path = "src/Summarized Notes.pdf"
-	return send_file(path, as_attachment=True)
+    path = "src/Summarized Notes.pdf"
+    return send_file(path, as_attachment=True)
 
 
 if __name__ == '__main__':
