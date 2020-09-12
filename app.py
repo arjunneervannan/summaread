@@ -59,14 +59,14 @@ def results():
 @app.route('/return-files')
 def return_files():
 	try:
-		return send_file('src/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
+		return send_file('videos/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
 	except Exception as e:
 		return str(e)
 
 
 @app.route('/download')
 def download_file():
-    path = "src/Summarized Notes.pdf"
+    path = "videos/Summarized Notes.pdf"
     return send_file(path, as_attachment=True)
 
 

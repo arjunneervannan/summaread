@@ -35,7 +35,7 @@ def clean_transcript(caption_list):
 
 # converts seconds to time
 def seconds_to_time(file_name):
-    with open("/Users/arjunneervannan/Desktop/timestamp.txt", 'r') as f:
+    with open("../videos/timestamps.txt", 'r') as f:
         timestamp_list = ast.literal_eval(f.read())
     for element in timestamp_list:
         if element[1] - element[0] < 5:
@@ -97,24 +97,27 @@ def post_summarization_formatting(returned_list, delimiter_1, delimiter_2):
     return final_str
 
 
-caption_list = reformat_transcription("/Users/arjunneervannan/Desktop/transcript.vtt")
-caption_list = clean_transcript(caption_list)
-timestamp_list = seconds_to_time("timestamps.txt")
-block_list = group_lines(caption_list, timestamp_list)
-#pre-processing to group caption into lies
+def summarize_transcript(transcript_file, timestamp_file):
+    # transcript_file = "../videos/video123.en-US.vtt"
+    # timestamp_file = "../videos/timestamps.txt"
+    caption_list = reformat_transcription(transcript_file)
+    caption_list = clean_transcript(caption_list)
+    timestamp_list = seconds_to_time(timestamp_file)
+    block_list = group_lines(caption_list, timestamp_list)
+    #pre-processing to group caption into lies
 
-summarizer = pipeline("summarization")
-bullet_list = []
-for block in block_list:
-    bullets = summarizer(str(block), min_length=10, max_length=50)
-    bullet_list.append(bullets)
-    print("summarized!")
-# transformers pipeline to summarize the shit
+    summarizer = pipeline("summarization")
+    bullet_list = []
+    for block in block_list:
+        bullets = summarizer(str(block), min_length=10, max_length=50)
+        bullet_list.append(bullets)
+        print("summarized!")
+    # transformers pipeline to summarize the shit
 
-returned_list = post_summarization_cleanup(bullet_list)
-final_str = post_summarization_formatting(returned_list, "-", "-")
-# final_str is the formatted thing
+    returned_list = post_summarization_cleanup(bullet_list)
+    final_str = post_summarization_formatting(returned_list, "-", "-")
+    # final_str is the formatted thing
 
-text_file = open("/Users/arjunneervannan/Desktop/sample.txt", "w")
-n = text_file.write(final_str)
-text_file.close()
+    text_file = open("../videos/summarized_notes.txt", "w")
+    n = text_file.write(final_str)
+    text_file.close()

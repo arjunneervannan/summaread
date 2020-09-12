@@ -1,16 +1,14 @@
-# basic-flask-template
-A barebone Flask app using Flask and Bootstrap (v4.4.1).
+# SummaRead: From Video Lectures to Smart Note Outlines
 
-
-![alt text](https://github.com/petersimeth/basic-flask-template/blob/master/flask_screenshot.png?raw=true)
+![alt text](flask_screenshot.png)
 
 ## Running Locally
 
 Make sure you have Python installed
 
 ```sh
-$ git clone https://github.com/petersimeth/basic-flask-template.git # or clone your own fork
-$ cd basic-flask-template
+$ git clone https://github.com/brandonwang1/discreetmath2.git # or clone your own fork
+$ cd discreetmath2
 $ pip install -r requirements.txt
 $ python app.py
 ```
