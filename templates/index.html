@@ -1,22 +1,22 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-    <div class="jumbotron">
-        <h1 class="display-4">Note Summarizer built by {{ app_data['author'] }} </h1>
-        <img src={{ url_for('static', filename='img/rajiv.jpeg') }} class="rounded mx-auto d-block" alt="rajiv pic">
-        <p class="text-center">Dedicated to our benevolent overlord Dr. Rajiv Gandhi</p>
+    <div class="jumbotron" >
+        <img src={{ url_for('static', filename='img/summaread_logo.png') }} class="rounded mx-auto d-block" alt="rajiv pic">
+        <h1 class="text-center">Built by the {{ app_data['author'] }} team</h1>
+{#        <p class="text-center">Dedicated to our benevolent overlord Dr. Rajiv Gandhi</p>#}
         <hr class="my-4">
-        <p class="lead">Enter your link to your Zoom lecture recording here:</p>
+        <p class="lead">Enter your link to your lecture video here:</p>
         <form action="/results" method="post">
             <div class="form-group">
-                <label for="exampleInputEmail1">Link to transcript</label>
+{#                <label for="exampleInputEmail1">Link to recording</label>#}
                 <input type="url" class="form-control" name="URL1" id="URL1" aria-describedby="emailHelp"
                        placeholder="Enter link">
                 {#                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone#}
                 {#                    else.</small>#}
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Alternatively, copy paste your transcript into the space
+                <label for="exampleFormControlTextarea1">Alternatively, paste your transcript into the space
                     below:</label>
                 <textarea class="form-control" id="TextArea1" name="TextArea1" rows="3"></textarea>
             </div>
@@ -28,7 +28,10 @@
             {#                <input type="checkbox" class="form-check-input" id="exampleCheck1">#}
             {#                <label class="form-check-label" for="exampleCheck1">Zoom</label>#}
             {#            </div>#}
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+                <div class="col text-center">
+            <button type="submit" class="btn btn-primary text-center">Submit</button>
+                </div>
         </form>
 
     </div>

@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<body class="body">
+    <h1>Loading.</h1>
+    <form action="/results" method="post">
+
+    <script type="text/javascript">
+        window.onload=function(){
+            var auto = setTimeout(function(){ autoRefresh(); }, 100);
+
+            function submitform(){
+              alert('test');
+              document.forms["myForm"].submit();
+            }
+
+            function autoRefresh(){
+               clearTimeout(auto);
+               auto = setTimeout(function(){ submitform(); autoRefresh(); }, 10000);
+            }
+        }
+    </script>
+</body>
+{% endblock %}
