@@ -1,5 +1,7 @@
 ###### Peter's Starter Template for a Flask Web App ######
 ###### Requirements without Version Specifiers ######
 flask
+google-cloud-videointelligence
+google-cloud-language
 fpdf
-webvtt
+webvtt-py
