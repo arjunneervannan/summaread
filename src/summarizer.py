@@ -41,7 +41,7 @@ def seconds_to_time(file_name):
 
     for i in range(len(timestamp_list)):
         timestamp_list[i] = (int(timestamp_list[i][0]), int(timestamp_list[i][1]))
-        timestamp_list[i] = (datetime.timedelta(seconds = timestamp_list[i][0]), datetime.timedelta(seconds = timestamp_list[i][1]))
+        timestamp_list[i] = (timedelta(seconds = timestamp_list[i][0]), timedelta(seconds = timestamp_list[i][1]))
     return(timestamp_list)
 
 """
