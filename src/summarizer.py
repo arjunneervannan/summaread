@@ -35,7 +35,7 @@ def group_lines(caption_list, increment):
     return block_list
 
 
-def post_summarization_cleanup(bullets_list):
+def post_summarization_cleanup(bullet_list):
     returned_list = []
     for bullet in bullet_list:
         summarized_sequence = bullet[0].get("summary_text")
@@ -53,18 +53,8 @@ def post_summarization_cleanup(bullets_list):
         returned_list.append(end_sequence)
     return returned_list
 
-    # for i in range(len(transcript_lines)):
-    #     if i % 2 == 0:
-    #         timestamps.append(transcript_lines[i])
-    #     else:
-    #         if (i+1)/2 % increment == 0:
-    #             curr_block.append(transcript_lines[i])
-    #             block_list.append(" ".join(curr_block))
-    #             curr_block = []
-    #         else:
-    #             curr_block.append(transcript_lines[i])
-    #
-    # return block_list
+
+def post_summarization_formatting(returned_list):
 
 
 caption_list = reformat_transcription("/Users/arjunneervannan/Desktop/transcript.vtt")
@@ -86,3 +76,7 @@ print("stop")
 # with open('/Users/arjunneervannan/Desktop/file.csv', 'w', newline='') as f:
 #     writer = csv.writer(f)
 #     writer.writerows(final_list)
+
+with open('listfile.txt', 'w') as filehandle:
+    for listitem in returned_list:
+        filehandle.write('%s\n' % listitem)
