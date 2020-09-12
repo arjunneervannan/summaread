@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from src.process_transcript import process_transcript
 
 DEVELOPMENT_ENV = True
@@ -28,9 +28,9 @@ def about():
     return render_template('about.html', app_data=app_data)
 
 
-@app.route('/service')
-def service():
-    return render_template('service.html', app_data=app_data)
+# @app.route('/service')
+# def service():
+#     return render_template('service.html', app_data=app_data)
 
 
 @app.route('/contact')
@@ -38,10 +38,13 @@ def contact():
     return render_template('contact.html', app_data=app_data)
 
 
-@app.route('/results')
+@app.route('/results', methods=['GET', 'POST'])
 def results():
-    result = process_transcript("Original Text")
-    return render_template('results.html', app_data=app_data, text_result=result)
+    if request.method == 'GET':
+        return about()  # go back to the home screen
+    else:
+        result = process_transcript(request.form["TextArea1"])
+        return render_template('results.html', app_data=app_data, text_result=result)
 
 
 if __name__ == '__main__':
