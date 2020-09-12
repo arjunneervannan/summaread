@@ -2,6 +2,8 @@
 from transformers import pipeline
 import webvtt
 from spacy.lang.en import English
+import ast
+from datetime import datetime, timedelta
 
 nlp = English()
 sbd = nlp.create_pipe('sentencizer')
@@ -13,16 +15,36 @@ def reformat_transcription(file_name):
     caption_list = []
     for line in text:
         caption_list.append([line.start, line.text])
-
     return (caption_list)
+
+def hms_to_seconds(t):
+    h, m, s = [int(i) for i in t.split(':')]
+    return(timedelta(seconds=3600*h + 60*m + s))
 
 
 def clean_transcript(caption_list):
     for i in range(0, len(caption_list)):
         caption_list[i][1] = caption_list[i][1].replace('\n', ' ')
+        
+    for element in caption_list:
+        element[0] = datetime.strptime(element[0], "%H:%M:%S.%f")
+        element[0] = element[0].strftime("%H:%M:%S")
+        element[0] = hms_to_seconds(element[0])
     return caption_list
 
+def seconds_to_time(file_name):
+    with open("src/"+ file_name, 'r') as f:
+        timestamp_list = ast.literal_eval(f.read())
+    for element in timestamp_list:
+        if element[1]-element[0] < 5:
+            timestamp_list.remove(element)
 
+    for i in range(len(timestamp_list)):
+        timestamp_list[i] = (int(timestamp_list[i][0]), int(timestamp_list[i][1]))
+        timestamp_list[i] = (datetime.timedelta(seconds = timestamp_list[i][0]), datetime.timedelta(seconds = timestamp_list[i][1]))
+    return(timestamp_list)
+
+"""
 def group_lines(caption_list, increment):
     timestamps = []
     block_list = []
@@ -37,7 +59,19 @@ def group_lines(caption_list, increment):
         block_list.append([caption_list[i][0], curr_block])
         i += increment
     return block_list
+"""
 
+def group_lines(caption_list, timestamp_list):
+    groupings = []
+    for i in range(0, len(timestamp_list)):
+        group = []
+        for element in caption_list:      
+            if timestamp_list[i][0] < element[0] < timestamp_list[i][1]:
+                group.append(element[1])
+        groupings.append(group)
+    
+    final_groups = [x for x in groupings if x != []]
+    return(final_groups)
 
 def post_summarization_cleanup(bullet_list):
     returned_list = []
@@ -75,7 +109,9 @@ def post_summarization_formatting(returned_list):
 
 caption_list = reformat_transcription("/Users/arjunneervannan/Desktop/transcript.vtt")
 caption_list = clean_transcript(caption_list)
-block_list = group_lines(caption_list, 20)
+timestamp_list = seconds_to_time("timestamps.txt")
+# block_list = group_lines(caption_list, 20)
+block_list = group_lines(caption_list, timestamp_list)
 # print(caption_list)
 # print(block_list)
 
