@@ -35,7 +35,7 @@ def about():
 #     return render_template('service.html', app_data=app_data)
 
 
-@app.route('/contact')	
+@app.route('/contact')
 def contact():
     return render_template('contact.html', app_data=app_data)
 
@@ -48,11 +48,11 @@ def results():
         result = reformat_transcription("Transcript.vtt")
         return render_template('results.html', app_data=app_data, text_result=result)
 
-    
+
 @app.route('/return-files')
 def return_files():
 	try:
-		return send_file('/src/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
+		return send_file('src/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
 	except Exception as e:
 		return str(e)
 
