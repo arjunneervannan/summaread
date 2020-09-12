@@ -3,5 +3,7 @@
 flask
 google-cloud-videointelligence
 google-cloud-language
+google-cloud-storage
 fpdf
 webvtt-py
+youtube-dl
