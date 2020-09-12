@@ -55,28 +55,26 @@ def post_summarization_cleanup(bullet_list):
 
 
 def post_summarization_formatting(returned_list):
+    caption_list = reformat_transcription("Transcript.vtt")
+    caption_list = clean_transcript(caption_list)
+    block_list = group_lines(caption_list, 20)
+    # print(caption_list)
+    # print(block_list)
 
+    # text_lines = group_lines(content_list, 5)
+    summarizer = pipeline("summarization")
+    bullet_list = []
+    for block in block_list:
+        bullets = summarizer(str(block[1]), min_length=20, max_length=40)
+        bullet_list.append(bullets)
 
-caption_list = reformat_transcription("/Users/arjunneervannan/Desktop/transcript.vtt")
-caption_list = clean_transcript(caption_list)
-block_list = group_lines(caption_list, 20)
-# print(caption_list)
-# print(block_list)
+    returned_list = post_summarization_cleanup(bullet_list)
+    print("stop")
 
-# text_lines = group_lines(content_list, 5)
-summarizer = pipeline("summarization")
-bullet_list = []
-for block in block_list:
-    bullets = summarizer(str(block[1]), min_length=20, max_length=40)
-    bullet_list.append(bullets)
+    # with open('/Users/arjunneervannan/Desktop/file.csv', 'w', newline='') as f:
+    #     writer = csv.writer(f)
+    #     writer.writerows(final_list)
 
-returned_list = post_summarization_cleanup(bullet_list)
-print("stop")
-
-# with open('/Users/arjunneervannan/Desktop/file.csv', 'w', newline='') as f:
-#     writer = csv.writer(f)
-#     writer.writerows(final_list)
-
-with open('listfile.txt', 'w') as filehandle:
-    for listitem in returned_list:
-        filehandle.write('%s\n' % listitem)
+    with open('listfile.txt', 'w') as filehandle:
+        for listitem in returned_list:
+            filehandle.write('%s\n' % listitem)
