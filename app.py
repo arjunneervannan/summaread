@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-<<<<<<< HEAD
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from src.reformat_transcription import reformat_transcription
 
-=======
-from flask import Flask, render_template, request
-from src.process_transcript import process_transcript
->>>>>>> 53094f0b15abc29e104eac103e6db0b391cbd7f0
 
 DEVELOPMENT_ENV = True
 
@@ -46,16 +41,11 @@ def contact():
 
 @app.route('/results', methods=['GET', 'POST'])
 def results():
-<<<<<<< HEAD
-    result = reformat_transcription("CIS 120 Transcript.txt")
-    return render_template('results.html', app_data=app_data, text_result=result)
-=======
     if request.method == 'GET':
         return about()  # go back to the home screen
     else:
-        result = process_transcript(request.form["TextArea1"])
+        result = reformat_transcription("CIS 120 Transcript.txt")
         return render_template('results.html', app_data=app_data, text_result=result)
->>>>>>> 53094f0b15abc29e104eac103e6db0b391cbd7f0
 
 
 if __name__ == '__main__':
