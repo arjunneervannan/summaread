@@ -8,7 +8,7 @@ import webvtt
 
 def reformat_transcription(file_name):
 
-    text = webvtt.read( "src/" + file_name, "r")
+    text = webvtt.read( "src/" + file_name)
     caption_list = []
     for line in text:
         caption_list.append((line.start, line.text))
