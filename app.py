@@ -3,7 +3,7 @@
 
 
 from flask import Flask, render_template, Response, send_file, request
-from src.summarizer import reformat_transcription
+# from src.summarizer import reformat_transcription
 import fpdf
 
 DEVELOPMENT_ENV = True
@@ -45,11 +45,15 @@ def results():
     if request.method == 'GET':
         return about()  # go back to the home screen
     else:
-        result = reformat_transcription("src/Transcript.vtt")
         concepts = [{'name': 'COVID-19', 'url': 'https://en.wikipedia.org/wiki/Coronavirus_disease_2019'},
-           {'name': 'SARS Virus', 'url': 'https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome'},
-           {'name': 'MIT', 'url': 'https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology'}]
-        return render_template('results.html', app_data=app_data, text_result=result, concepts=concepts)
+                    {'name': 'SARS Virus', 'url': 'https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome'},
+                    {'name': 'MIT', 'url': 'https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology'}]
+        if request.form['TextArea1'] != "":
+            return render_template('results.html', app_data=app_data, text_result=request.form['TextArea1'], concepts=concepts)
+        else:
+            # result = reformat_transcription("src/Transcript.vtt")
+
+            return render_template('results.html', app_data=app_data, text_result=result, concepts=concepts)
 
 
 @app.route('/return-files')

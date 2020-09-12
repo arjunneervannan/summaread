@@ -7,3 +7,4 @@ webvtt-py
 torch==1.6.0+cpu
 torchvision==0.7.0+cpu
 transformers
+spacy
