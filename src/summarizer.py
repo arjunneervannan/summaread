@@ -17,39 +17,41 @@ def reformat_transcription(file_name):
         caption_list.append([line.start, line.text])
     return (caption_list)
 
+
 def hms_to_seconds(t):
     h, m, s = [int(i) for i in t.split(':')]
-    return(timedelta(seconds=3600*h + 60*m + s))
+    return (timedelta(seconds=3600 * h + 60 * m + s))
 
 
 def clean_transcript(caption_list):
     for i in range(0, len(caption_list)):
         caption_list[i][1] = caption_list[i][1].replace('\n', ' ')
-        
+
     for element in caption_list:
         element[0] = datetime.strptime(element[0], "%H:%M:%S.%f")
         element[0] = element[0].strftime("%H:%M:%S")
         element[0] = hms_to_seconds(element[0])
     return caption_list
 
+
 def seconds_to_time(file_name):
-    with open("src/"+ file_name, 'r') as f:
+    with open("/Users/arjunneervannan/Desktop/timestamp.txt", 'r') as f:
         timestamp_list = ast.literal_eval(f.read())
     for element in timestamp_list:
-        if element[1]-element[0] < 5:
+        if element[1] - element[0] < 5:
             timestamp_list.remove(element)
 
     for i in range(len(timestamp_list)):
         timestamp_list[i] = (int(timestamp_list[i][0]), int(timestamp_list[i][1]))
-        timestamp_list[i] = (timedelta(seconds = timestamp_list[i][0]), timedelta(seconds = timestamp_list[i][1]))
-    return(timestamp_list)
+        timestamp_list[i] = (timedelta(seconds=timestamp_list[i][0]), timedelta(seconds=timestamp_list[i][1]))
+    return (timestamp_list)
+
 
 """
 def group_lines(caption_list, increment):
     timestamps = []
     block_list = []
     i = 0
-
     while i < len(caption_list):
         curr_block = ""
         for j in range(0, increment):
@@ -61,17 +63,22 @@ def group_lines(caption_list, increment):
     return block_list
 """
 
+
 def group_lines(caption_list, timestamp_list):
     groupings = []
     for i in range(0, len(timestamp_list)):
         group = []
-        for element in caption_list:      
+        for element in caption_list:
             if timestamp_list[i][0] < element[0] < timestamp_list[i][1]:
                 group.append(element[1])
         groupings.append(group)
-    
+
     final_groups = [x for x in groupings if x != []]
-    return(final_groups)
+    for index, element in enumerate(final_groups):
+        final_groups[index] = " ".join(element)
+
+    return (final_groups)
+
 
 def post_summarization_cleanup(bullet_list):
     returned_list = []
@@ -112,6 +119,7 @@ caption_list = clean_transcript(caption_list)
 timestamp_list = seconds_to_time("timestamps.txt")
 # block_list = group_lines(caption_list, 20)
 block_list = group_lines(caption_list, timestamp_list)
+
 # print(caption_list)
 # print(block_list)
 
@@ -119,9 +127,9 @@ block_list = group_lines(caption_list, timestamp_list)
 summarizer = pipeline("summarization")
 bullet_list = []
 for block in block_list:
-    print("summarized!")
-    bullets = summarizer(str(block[1]), min_length=20, max_length=40)
+    bullets = summarizer(str(block), min_length=10, max_length=50)
     bullet_list.append(bullets)
+    print("summarized!")
 
 returned_list = post_summarization_cleanup(bullet_list)
 final_str = post_summarization_formatting(returned_list)
@@ -131,7 +139,3 @@ print("stop")
 text_file = open("/Users/arjunneervannan/Desktop/sample.txt", "w")
 n = text_file.write(final_str)
 text_file.close()
-
-# with open('listfile.txt', 'w') as filehandle:
-#     for listitem in returned_list:
-#         filehandle.write('%s\n' % listitem)
