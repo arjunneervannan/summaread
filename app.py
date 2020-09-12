@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, render_template, request, send_file
+
+from flask import Flask, render_template, Response, send_file, request
 from src.reformat_transcription import reformat_transcription
 import fpdf
-
 
 DEVELOPMENT_ENV = True
 
@@ -47,6 +47,7 @@ def results():
     else:
         result = reformat_transcription("Transcript.vtt")
         return render_template('results.html', app_data=app_data, text_result=result)
+
     
 @app.route('/return-files')
 def return_files():
@@ -54,6 +55,13 @@ def return_files():
 		return send_file('/src/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
 	except Exception as e:
 		return str(e)
+
+
+@app.route('/download')
+def download_file():
+    path = "src/Summarized Notes.pdf"
+    return send_file(path, as_attachment=True)
+
 
 
 if __name__ == '__main__':
