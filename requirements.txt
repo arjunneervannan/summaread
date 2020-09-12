@@ -2,4 +2,4 @@
 ###### Requirements without Version Specifiers ######
 flask
 fpdf
-webvtt
+webvtt-py

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, request, send_file
 from src.reformat_transcription import reformat_transcription
 import fpdf
 
@@ -35,7 +35,7 @@ def about():
 #     return render_template('service.html', app_data=app_data)
 
 
-@app.route('/contact')
+@app.route('/contact')	
 def contact():
     return render_template('contact.html', app_data=app_data)
 
@@ -45,14 +45,15 @@ def results():
     if request.method == 'GET':
         return about()  # go back to the home screen
     else:
-        result = reformat_transcription("CIS 120 Transcript.txt")
+        result = reformat_transcription("Transcript.vtt")
         return render_template('results.html', app_data=app_data, text_result=result)
-
-
-@app.route('/download')
-def download_file():
-	path = "src/Summarized Notes.pdf"
-	return send_file(path, as_attachment=True)
+    
+@app.route('/return-files')
+def return_files():
+	try:
+		return send_file('/src/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
+	except Exception as e:
+		return str(e)
 
 
 if __name__ == '__main__':

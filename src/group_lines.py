@@ -1,8 +1,5 @@
 def group_lines(file_name, increment):
-    file = open(file_name, "r")
-    transcript = file.read()
-    transcript_lines = transcript.splitlines()
-    transcript_lines.insert(0, "0:00")
+    text = webvtt.read( "src/" + file_name)
 
     timestamps = []
 
