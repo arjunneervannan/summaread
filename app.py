@@ -11,12 +11,12 @@ DEVELOPMENT_ENV = True
 app = Flask(__name__)
 
 app_data = {
-    "name": "Hackathon Project",
-    "description": "Hackathon Project made by the Discreet Math team",
+    "name": "Summaread",
+    "description": "Hophacks Project made by the Discreet Math team",
     "author": "Discreet Math",
-    "html_title": "Hackathon Project made by the DM team",
-    "project_name": "Note Summarizer",
-    "keywords": "flask, webapp, template, basic"
+    "html_title": "Hophacks Project made by the DM team",
+    "project_name": "Summaread",
+    "keywords": "notes, lecture, video, AI, Google Cloud"
 }
 
 
@@ -45,7 +45,7 @@ def results():
     if request.method == 'GET':
         return about()  # go back to the home screen
     else:
-        result = reformat_transcription("Transcript.vtt")
+        result = reformat_transcription("src/Transcript.vtt")
         return render_template('results.html', app_data=app_data, text_result=result)
 
 
