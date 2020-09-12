@@ -3,6 +3,7 @@
 
 from flask import Flask, render_template, request
 from src.reformat_transcription import reformat_transcription
+import fpdf
 
 
 DEVELOPMENT_ENV = True
