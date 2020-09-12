@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, render_template
-from src.process_transcript import process_transcript
+from src.reformat_transcription import reformat_transcription
+
 
 DEVELOPMENT_ENV = True
 
@@ -40,7 +41,7 @@ def contact():
 
 @app.route('/results')
 def results():
-    result = process_transcript("Original Text")
+    result = reformat_transcription("CIS 120 Transcript.txt")
     return render_template('results.html', app_data=app_data, text_result=result)
 
 
