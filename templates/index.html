@@ -29,10 +29,12 @@
             {#                <input type="checkbox" class="form-check-input" id="exampleCheck1">#}
             {#                <label class="form-check-label" for="exampleCheck1">Zoom</label>#}
             {#            </div>#}
-            <button class="btn btn-primary" type="button" disabled>
-              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-              Loading...
-            </button>
+            <div style="margin:3em;">
+              <form class="form-inline" id="topicForm" action="" method="POST">
+                <input type="text" id="inputTopic" name="topic" class="form-control mb-2 mr-sm-2" placeholder="Topic of interest" required autofocus/>
+                <button type="button" id="btnFetch" class="btn btn-primary mb-2">Submit</button>
+              </form>
+            </div>
         </form>
 
     </div>
