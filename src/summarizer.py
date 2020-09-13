@@ -141,7 +141,7 @@ def summarize_transcript(transcript_file, timestamp_file="", use_fixed_groupings
     summarizer = pipeline("summarization")
     bullet_list = []
     for block in block_list:
-        bullets = summarizer(str(block), min_length=10, max_length=50)
+        bullets = summarizer(str(block)[:1010], min_length=10, max_length=50)
         bullet_list.append(bullets)
         print("summarized!")
     # transformers pipeline to summarize the shit

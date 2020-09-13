@@ -46,7 +46,7 @@ def results():
                 file.write(request.form['TextArea1'])
             result = summarize_transcript(transcript_file='videos/user_transcript.txt', use_fixed_groupings=True)
         else:
-            video_to_transcript_cuts(request.form['URL1'])
+            # video_to_transcript_cuts(request.form['URL1'])
             result = summarize_transcript(transcript_file="videos/video123.en-US.vtt",
                                           timestamp_file="videos/slide_cuts.pkl",
                                           use_fixed_groupings=False)
@@ -67,3 +67,4 @@ def return_files():
 
 if __name__ == '__main__':
     app.run(debug=DEVELOPMENT_ENV)
+    # Gunicorn -w 4 app:app -t 500
