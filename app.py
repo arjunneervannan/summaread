@@ -46,9 +46,22 @@ def results():
                 file.write(request.form['TextArea1'])
             result = summarize_transcript(transcript_file='videos/user_transcript.txt', use_fixed_groupings=True)
         else:
-            # video_to_transcript_cuts(request.form['URL1'])
-            result = summarize_transcript(transcript_file="videos/video123.en-US.vtt",
-                                          timestamp_file="videos/slide_cuts.pkl",
+            print("REQUESTED " + request.form['URL1'])
+            # our preset video
+            if request.form['URL1'] != "https://www.youtube.com/watch?v=XbIfFY_fJ_s":
+                video_to_transcript_cuts(request.form['URL1'], get_shots=False)
+                print("starting NLP")
+                try:
+                    result = summarize_transcript(transcript_file="videos/video123.en-US.vtt",
+                                                  timestamp_file="videos/slide_cuts.pkl",
+                                                  use_fixed_groupings=True)
+                except:
+                    result = summarize_transcript(transcript_file="videos/video123.en.vtt",
+                                                  timestamp_file="videos/slide_cuts.pkl",
+                                                  use_fixed_groupings=True)
+            else:
+                result = summarize_transcript(transcript_file="videos/video2.vtt",
+                                          timestamp_file="videos/slide_cuts_covid.pkl",
                                           use_fixed_groupings=False)
         concepts = extract_text_entity(result)
         # concepts = {}

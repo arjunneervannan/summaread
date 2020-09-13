@@ -7,7 +7,7 @@ from google.cloud import storage
 
 def my_hook(d):
     if d['status'] == 'finished':
-        print('Done downloading, now uploading to gcloud ...')
+        print('Done downloading, now moving on ...')
 
 
 def download_vid(url):
@@ -84,11 +84,11 @@ def load_pkl():
     print(shot_list)
 
 
-def video_to_transcript_cuts(video_url):
-    print("REQUESTED "+video_url)
+def video_to_transcript_cuts(video_url, get_shots):
     download_vid(video_url)
-    upload_blob("videos/video123.mp4", "video123.mp4")
-    process_vid("gs://hackathon_sahitya/video123.mp4")
+    if get_shots:
+        upload_blob("videos/video123.mp4", "video123.mp4")
+        process_vid("gs://hackathon_sahitya/video123.mp4")
     # load_pkl()
 
 
