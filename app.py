@@ -39,7 +39,7 @@ def contact():
 @app.route('/results', methods=['GET', 'POST'])
 def results():
     if request.method == 'GET':
-        return about()  # go back to the home screen
+        return index()  # go back to the home screen
     else:
         if request.form['TextArea1'] != "":
             with open('videos/user_transcript.txt', 'w') as file:
