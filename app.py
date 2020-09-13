@@ -3,9 +3,9 @@
 
 
 from flask import Flask, render_template, Response, send_file, request
-from src.summarizer import reformat_transcription
-import fpdf
-
+from src.summarizer import summarize_transcript
+from src.entity_analysis_gcp import extract_text_entity
+from src.slide_change_gcp import video_to_transcript_cuts
 DEVELOPMENT_ENV = True
 
 app = Flask(__name__)
@@ -45,23 +45,28 @@ def results():
     if request.method == 'GET':
         return about()  # go back to the home screen
     else:
-        concepts = [{'name': 'COVID-19', 'url': 'https://en.wikipedia.org/wiki/Coronavirus_disease_2019'},
-                    {'name': 'SARS Virus', 'url': 'https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome'},
-                    {'name': 'MIT', 'url': 'https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology'}]
         if request.form['TextArea1'] != "":
-            return render_template('results.html', app_data=app_data, text_result=request.form['TextArea1'], concepts=concepts)
+            with open('videos/user_transcript.txt', 'w') as file:
+                file.write(request.form['TextArea1'])
+            result = summarize_transcript(transcript_file='videos/user_transcript.txt', use_fixed_groupings=True)
+            concepts = extract_text_entity(result)
+            return render_template('results.html', app_data=app_data, text_result=result,
+                                   concepts=concepts)
         else:
-            # result = reformat_transcription("src/Transcript.vtt")
-
-            return render_template('results.html', app_data=app_data, text_result=result, concepts=concepts)
+            video_to_transcript_cuts(request.form['URL1'])
+            concepts = [{'name': 'COVID-19', 'url': 'https://en.wikipedia.org/wiki/Coronavirus_disease_2019'},
+                        {'name': 'SARS Virus', 'url': 'https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome'},
+                        {'name': 'MIT', 'url': 'https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology'}]
+            return render_template('results.html', app_data=app_data, text_result=request.form['TextArea1'],
+                                   concepts=concepts)
 
 
 @app.route('/return-files')
 def return_files():
-	try:
-		return send_file('videos/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
-	except Exception as e:
-		return str(e)
+    try:
+        return send_file('videos/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
+    except Exception as e:
+        return str(e)
 
 
 @app.route('/download')

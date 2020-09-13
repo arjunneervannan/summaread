@@ -9,6 +9,7 @@ nlp = English()
 sbd = nlp.create_pipe('sentencizer')
 nlp.add_pipe(sbd)
 
+
 # reformat transcription converst from .vtt to a list
 def reformat_transcription(file_name):
     text = webvtt.read(file_name)
@@ -17,10 +18,12 @@ def reformat_transcription(file_name):
         caption_list.append([line.start, line.text])
     return (caption_list)
 
+
 # hms to seconds converts seconds from timestamp.txt to hours:minutes:seconds
 def hms_to_seconds(t):
     h, m, s = [int(i) for i in t.split(':')]
     return (timedelta(seconds=3600 * h + 60 * m + s))
+
 
 # removes newlines, strips time
 def clean_transcript(caption_list):
@@ -32,6 +35,7 @@ def clean_transcript(caption_list):
         element[0] = element[0].strftime("%H:%M:%S")
         element[0] = hms_to_seconds(element[0])
     return caption_list
+
 
 # converts seconds to time
 def seconds_to_time(file_name):
@@ -45,6 +49,7 @@ def seconds_to_time(file_name):
         timestamp_list[i] = (int(timestamp_list[i][0]), int(timestamp_list[i][1]))
         timestamp_list[i] = (timedelta(seconds=timestamp_list[i][0]), timedelta(seconds=timestamp_list[i][1]))
     return (timestamp_list)
+
 
 # groups captions by timestamps so that they can be fed into the summarizer
 def group_lines(caption_list, timestamp_list):
@@ -61,6 +66,23 @@ def group_lines(caption_list, timestamp_list):
         final_groups[index] = " ".join(element)
 
     return (final_groups)
+
+
+# Used as a backup in case we don't have timestamps
+def group_lines_fixed(caption_list, increment):
+    timestamps = []
+    block_list = []
+    i = 0
+    while i < len(caption_list):
+        curr_block = ""
+        for j in range(0, increment):
+            if i + increment > len(caption_list):
+                break
+            curr_block += caption_list[i + j][1] + " "
+        block_list.append([caption_list[i][0], curr_block])
+        i += increment
+    return block_list
+
 
 # removes extra spaces, cleans up extra newlines after summarization is complete
 def post_summarization_cleanup(bullet_list):
@@ -81,6 +103,7 @@ def post_summarization_cleanup(bullet_list):
         returned_list.append(end_sequence)
     return returned_list
 
+
 # converts into outline format
 def post_summarization_formatting(returned_list, delimiter_1, delimiter_2):
     final_str = ""
@@ -97,14 +120,19 @@ def post_summarization_formatting(returned_list, delimiter_1, delimiter_2):
     return final_str
 
 
-def summarize_transcript(transcript_file, timestamp_file):
-    # transcript_file = "../videos/video123.en-US.vtt"
+def summarize_transcript(transcript_file, timestamp_file="", use_fixed_groupings=False):
+    # transcript_file = "../videos/video123.en-US.vtt" # Just here for reference
     # timestamp_file = "../videos/timestamps.txt"
     caption_list = reformat_transcription(transcript_file)
     caption_list = clean_transcript(caption_list)
-    timestamp_list = seconds_to_time(timestamp_file)
-    block_list = group_lines(caption_list, timestamp_list)
-    #pre-processing to group caption into lies
+    # if we extracted transition timestamps
+    if not use_fixed_groupings:
+        timestamp_list = seconds_to_time(timestamp_file)
+        block_list = group_lines(caption_list, timestamp_list)
+    else:
+        block_list = group_lines_fixed(caption_list, 20)  # we can adjust this 20 value
+
+    # pre-processing to group caption into lies
 
     summarizer = pipeline("summarization")
     bullet_list = []
@@ -118,6 +146,7 @@ def summarize_transcript(transcript_file, timestamp_file):
     final_str = post_summarization_formatting(returned_list, "-", "-")
     # final_str is the formatted thing
 
-    text_file = open("../videos/summarized_notes.txt", "w")
-    n = text_file.write(final_str)
-    text_file.close()
+    with open('videos/summarized_notes.txt', 'w') as file:
+        file.write(final_str)
+
+    return final_str
