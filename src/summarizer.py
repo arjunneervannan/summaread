@@ -4,6 +4,7 @@ import webvtt
 from spacy.lang.en import English
 import ast
 from datetime import datetime, timedelta
+import pickle
 
 nlp = English()
 sbd = nlp.create_pipe('sentencizer')
@@ -39,8 +40,9 @@ def clean_transcript(caption_list):
 
 # converts seconds to time
 def seconds_to_time(file_name):
-    with open("../videos/timestamps.txt", 'r') as f:
-        timestamp_list = ast.literal_eval(f.read())
+    timestamp_list = pickle.load(open("videos/slide_cuts.pkl", "rb"))
+    # with open("videos/timestamps.txt", 'r') as f:
+    #     timestamp_list = ast.literal_eval(f.read())
     for element in timestamp_list:
         if element[1] - element[0] < 5:
             timestamp_list.remove(element)
@@ -125,6 +127,8 @@ def summarize_transcript(transcript_file, timestamp_file="", use_fixed_groupings
     # timestamp_file = "../videos/timestamps.txt"
     caption_list = reformat_transcription(transcript_file)
     caption_list = clean_transcript(caption_list)
+
+    if use_fixed_groupings and timestamp_file == "": assert "Ya cant do this"
     # if we extracted transition timestamps
     if not use_fixed_groupings:
         timestamp_list = seconds_to_time(timestamp_file)

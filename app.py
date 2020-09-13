@@ -49,16 +49,15 @@ def results():
             with open('videos/user_transcript.txt', 'w') as file:
                 file.write(request.form['TextArea1'])
             result = summarize_transcript(transcript_file='videos/user_transcript.txt', use_fixed_groupings=True)
-            concepts = extract_text_entity(result)
-            return render_template('results.html', app_data=app_data, text_result=result,
-                                   concepts=concepts)
         else:
             video_to_transcript_cuts(request.form['URL1'])
-            concepts = [{'name': 'COVID-19', 'url': 'https://en.wikipedia.org/wiki/Coronavirus_disease_2019'},
-                        {'name': 'SARS Virus', 'url': 'https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome'},
-                        {'name': 'MIT', 'url': 'https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology'}]
-            return render_template('results.html', app_data=app_data, text_result=request.form['TextArea1'],
-                                   concepts=concepts)
+            result = summarize_transcript(transcript_file="videos/video123.en-US.vtt",
+                                          timestamp_file="videos/slide_cuts.pkl",
+                                          use_fixed_groupings=False)
+        concepts = extract_text_entity(result)
+        return render_template('results.html', app_data=app_data, text_result=result,
+                               concepts=concepts)
+        # demo video: 'https://www.youtube.com/watch?v=XbIfFY_fJ_s'
 
 
 @app.route('/return-files')

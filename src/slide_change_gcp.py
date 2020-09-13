@@ -7,7 +7,7 @@ from google.cloud import storage
 
 def my_hook(d):
     if d['status'] == 'finished':
-        print('Done downloading, now uploading ...')
+        print('Done downloading, now uploading to gcloud ...')
 
 
 def download_vid(url):
@@ -73,22 +73,21 @@ def process_vid(path_url):
         print("\tShot {}: {} to {}".format(i, start_time, end_time))
         shot_list.append((start_time, end_time))
 
-    pickle.dump(shot_list, open("videos/slide_cuts.p", "wb"))
+    pickle.dump(shot_list, open("videos/slide_cuts.pkl", "wb"))
     print("All done!")
 
     return shot_list
 
 
 def load_pkl():
-    shot_list = pickle.load(open("videos/slide_cuts.p", "rb"))
+    shot_list = pickle.load(open("videos/slide_cuts.pkl", "rb"))
     print(shot_list)
 
 
 def video_to_transcript_cuts(video_url):
-    download_vid(video_url)
-    upload_blob("videos/video123.mp4", "video123.mp4")
-    path = "gs://hackathon_sahitya/video123.mp4"
-    return process_vid(path)
+    # download_vid(video_url)
+    # upload_blob("videos/video123.mp4", "video123.mp4")
+    process_vid("gs://hackathon_sahitya/video123.mp4")
     # load_pkl()
 
 
