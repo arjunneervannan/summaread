@@ -46,7 +46,7 @@ def results():
                 file.write(request.form['TextArea1'])
             result = summarize_transcript(transcript_file='videos/user_transcript.txt', use_fixed_groupings=True)
         else:
-            # video_to_transcript_cuts(request.form['URL1'])
+            video_to_transcript_cuts(request.form['URL1'])
             result = summarize_transcript(transcript_file="videos/video123.en-US.vtt",
                                           timestamp_file="videos/slide_cuts.pkl",
                                           use_fixed_groupings=False)
