@@ -3,6 +3,8 @@
 
 Built by @brandonwang1, @senapathys, @matt-dong, and @arjunneervannan
 
+Devpost: https://devpost.com/software/summawrite/
+
 ![alt text](flask_screenshot.png)
 
 ## Running Locally
