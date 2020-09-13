@@ -30,10 +30,6 @@ def about():
     return render_template('about.html', app_data=app_data)
 
 
-# @app.route('/service')
-# def service():
-#     return render_template('service.html', app_data=app_data)
-
 
 @app.route('/contact')
 def contact():
@@ -66,12 +62,6 @@ def return_files():
         return send_file('videos/Summarized Notes.pdf', attachment_filename='Summarized Notes.pdf')
     except Exception as e:
         return str(e)
-
-
-@app.route('/download')
-def download_file():
-    path = "videos/Summarized Notes.pdf"
-    return send_file(path, as_attachment=True)
 
 
 if __name__ == '__main__':
