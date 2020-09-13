@@ -1,4 +1,7 @@
 # SummaRead: From Video Lectures to Smart Note Outlines
+### Hophacks Fall 2020 Overall 1st Place
+
+Built by @brandonwang1, @senapathys, @matt-dong, and @arjunneervannan
 
 ![alt text](flask_screenshot.png)
 
