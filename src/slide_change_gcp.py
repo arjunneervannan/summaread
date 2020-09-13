@@ -85,8 +85,8 @@ def load_pkl():
 
 
 def video_to_transcript_cuts(video_url):
-    # download_vid(video_url)
-    # upload_blob("videos/video123.mp4", "video123.mp4")
+    download_vid(video_url)
+    upload_blob("videos/video123.mp4", "video123.mp4")
     process_vid("gs://hackathon_sahitya/video123.mp4")
     # load_pkl()
 

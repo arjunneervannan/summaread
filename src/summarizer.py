@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 from transformers import pipeline
 import webvtt
-from spacy.lang.en import English
-import ast
+# from spacy.lang.en import English
+# import ast
 from datetime import datetime, timedelta
 import pickle
 
-nlp = English()
-sbd = nlp.create_pipe('sentencizer')
-nlp.add_pipe(sbd)
+# nlp = English()
+# sbd = nlp.create_pipe('sentencizer')
+# nlp.add_pipe(sbd)
 
 
 # reformat transcription converst from .vtt to a list

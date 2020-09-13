@@ -51,6 +51,7 @@ def results():
                                           timestamp_file="videos/slide_cuts.pkl",
                                           use_fixed_groupings=False)
         concepts = extract_text_entity(result)
+        # concepts = {}
         return render_template('results.html', app_data=app_data, text_result=result,
                                concepts=concepts)
         # demo video: 'https://www.youtube.com/watch?v=XbIfFY_fJ_s'
