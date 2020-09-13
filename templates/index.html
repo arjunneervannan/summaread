@@ -1,22 +1,25 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-    <div class="jumbotron" >
-        <img src={{ url_for('static', filename='img/summaread_logo.png') }} class="rounded mx-auto d-block" alt="rajiv pic">
+    <div class="jumbotron">
+        <img src={{ url_for('static', filename='img/summaread_logo.png') }} class="rounded mx-auto d-block" alt="rajiv
+        pic">
         <h1 class="text-center">Built by the {{ app_data['author'] }} team</h1>
-{#        <p class="text-center">Dedicated to our benevolent overlord Dr. Rajiv Gandhi</p>#}
+        {#        <p class="text-center">Dedicated to our benevolent overlord Dr. Rajiv Gandhi</p>#}
         <hr class="my-4">
-        <p class="lead">Enter your link to your lecture video here: (eg. https://www.youtube.com/watch?v=XbIfFY_fJ_s)</p>
+        <p class="lead">Enter your link to your lecture video here: (eg.
+            https://www.youtube.com/watch?v=XbIfFY_fJ_s)</p>
         <form action="/results" method="post">
             <div class="form-group">
-{#                <label for="exampleInputEmail1">Link to recording</label>#}
+                {#                <label for="exampleInputEmail1">Link to recording</label>#}
                 <input type="url" class="form-control" name="URL1" id="URL1" aria-describedby="emailHelp"
                        placeholder="https://www.youtube.com/watch?v=XbIfFY_fJ_s">
                 {#                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone#}
                 {#                    else.</small>#}
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Alternatively, paste your transcript in WebVTT format into the space
+                <label for="exampleFormControlTextarea1">Alternatively, paste your transcript in WebVTT format into the
+                    space
                     below:</label>
                 <textarea class="form-control" id="TextArea1" name="TextArea1" rows="3" placeholder="WEBVTT"></textarea>
             </div>
@@ -29,11 +32,12 @@
             {#                <label class="form-check-label" for="exampleCheck1">Zoom</label>#}
             {#            </div>#}
 
-                <div class="col text-center">
-            <button type="submit" class="btn btn-primary text-center">Submit</button>
-                </div>
+            <div class="col text-center">
+                <button type="submit" class="btn btn-primary text-center">Submit</button>
+            </div>
         </form>
-
+        <br>
+        <h5>Please be patient while waiting for results (Usually takes 2-3 min to process 1 hr video).</h5>
     </div>
 
 
