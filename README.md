@@ -12,7 +12,7 @@ Devpost: https://devpost.com/software/summawrite/
 Make sure you have Python installed
 
 ```sh
-$ git clone https://github.com/brandonwang1/summaread.git # or clone your own fork
+$ git clone https://github.com/matt-dong/summaread.git # or clone your own fork
 $ cd summaread
 $ pip install -r requirements.txt
 $ python app.py
